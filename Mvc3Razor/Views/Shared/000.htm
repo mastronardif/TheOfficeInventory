@@ -1,0 +1,68 @@
+<html>
+<head>
+
+    <script type="text/javascript"
+src="http://www.google.com/jsapi"></script>
+    <script type="text/javascript">
+      google.load('visualization', '1', {packages: ['gauge']});
+    </script>
+    <script type="text/javascript">
+      function drawVisualization() {
+        // Create and populate the data table.
+        var data = new google.visualization.DataTable();
+        data.addColumn('string', 'Label');
+        data.addColumn('number', 'Value');
+        data.addRows(3);
+        data.setValue(0, 0, 'Memory');
+        data.setValue(0, 1, 80);
+        data.setValue(1, 0, 'CPU');
+        data.setValue(1, 1, 55);
+        data.setValue(2, 0, 'GDI');
+        data.setValue(2, 1, 68);
+
+        // Create and draw the visualization.
+        new
+        google.visualization.Gauge(document.getElementById('visualization')).draw(data);
+      }
+
+      google.setOnLoadCallback(drawVisualization);
+    </script>
+</head>
+
+<body>
+<table border="1">
+<tr>
+<td>
+<div id="visualization" style="width: 500px; height: 260px;"></div>
+</td>
+
+<td>
+<div
+
+style="background-image:url(
+http://chart.apis.google.com/chart?cht=t&chs=400x220&&chd=t:20,38,57,60,80,86,171,178,61,62,66,103,151,180,175,12,40,46,70,92,176,172,173,95,107,112,157,6,58,67,72,74,78,83,102,177,109,111,113,154,174,168,169,17,56,97,99,104,181,11,14,50,68,73,79,156,160,159,24,106,153,30,45,81,27,152,15,29,53,164,19,39,63,166,7,4,44,82,55,155,165,34,100,167,64,65,110,21,31,69,150,87,94,88,115,9,37,89,90,35,161,170,3,10,54,1,2,5,8,75,77,16,52,59,101,158,25,28,48,51,71,93,96,98,105,163,162,179,91,84,22,26,36,41,42,43,47,49,76,114,23,85,108&&chld=AlAlALALALALALARAZAZAZAZAZAZAZCACACACACACACOCOCOCOCOCOCTCTCTCTCTCTCTCTCTCTCTCTCTCTCTCTFLFLFLFLFLFLGAGAGAGAGAGAGAGAGAHIIAIDILILILILINKSKSKSKSKyKYKYLAMAMDMIMIMNMNMNMOMOMONCNCNENJNJNJNJNMNMNVNVNYNYNYNYOHOHOHPAPAPASCSCSCSCSCSCTNTNTNTNTNTXTXTXTXTXTXTXTXTXTXTXTXUTVAWAWAWAWAWAWAWAWAWAWAWAWIWV&&chtm=usa&chtt=Call+Centers&chts=FF0000,20);
+	background-repeat:no-repeat;
+	width:400px;
+	height:400px;">
+</div> 
+
+</td>
+</tr>
+</table>
+
+
+<!--
+<div
+style="background-image:url(http://chart.apis.google.com/chart?cht=t&chs=400x220&chd=t:2,2,3,4,35,35,35,45,45,45,45,45,45&chld=CAWAAZNMOHPAMENJCTMDNCSCFL&chtm=usa&chtt=Call+Centers&chts=FF0000,20);
+	background-repeat:no-repeat;
+	width:400px;
+	height:400px;">
+<p>HTML background code is limited, CSS background code is much better!</p> </div> <p>
+<a style="font-size:10px;"
+href="http://chart.apis.google.com/chart?cht=t&chs=400x220&chd=t:2,2,3,4,35,35,35,45,45,45,45,45,45&chld=CAWAAZNMOHPAMENJCTMDNCSCFL&chtm=usa&chtt=Call+Centers&chts=FF0000,20">
+Backround Patterns</a>
+</p>
+-->
+
+</body>
+</html>
