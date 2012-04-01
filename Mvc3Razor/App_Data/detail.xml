@@ -1,0 +1,1493 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="mytable.xsl" ?>
+<ROWSET>
+
+
+
+  <ROW>
+    <complaintid>MADC1327</complaintid>
+    <casenumber>11-01271</casenumber>
+    <name>Alan N. Horwitz</name>
+    <hardshipapplicationdate>2011-03-08T00:00:00</hardshipapplicationdate>
+    <description>Team Review</description>
+    <date>2011-03-08T00:00:00</date>
+    <recommendation>None</recommendation>
+    <recommendedsettlement>0.00</recommendedsettlement>
+  </ROW>
+  <ROW>
+    <complaintid>MADC0100</complaintid>
+    <casenumber>10-05277</casenumber>
+    <name>Paul Allen</name>
+    <hardshipapplicationdate>2010-12-20T00:00:00</hardshipapplicationdate>
+    <description>Team Review</description>
+    <date>2011-03-01T00:00:00</date>
+    <recommendation>None</recommendation>
+    <recommendedsettlement>0.00</recommendedsettlement>
+  </ROW>
+  <ROW>
+    <complaintid>MADC0265</complaintid>
+    <casenumber>10-05394</casenumber>
+    <name>Amanda Savasky</name>
+    <hardshipapplicationdate>2011-02-18T00:00:00</hardshipapplicationdate>
+    <description>Team Review</description>
+    <date>2011-02-20T00:00:00</date>
+    <recommendation>None</recommendation>
+    <recommendedsettlement>0.00</recommendedsettlement>
+  </ROW>
+  <ROW>
+    <complaintid>MADC0265</complaintid>
+    <casenumber>10-05394</casenumber>
+    <name>Christopher L. Dingman</name>
+    <hardshipapplicationdate>2011-02-22T00:00:00</hardshipapplicationdate>
+    <description>Team Review</description>
+    <date>2011-02-22T00:00:00</date>
+    <recommendation>None</recommendation>
+    <recommendedsettlement>0.00</recommendedsettlement>
+  </ROW>
+  <ROW>
+    <complaintid>MADC0265</complaintid>
+    <casenumber>10-05394</casenumber>
+    <name>Barbara Buckmaster</name>
+    <hardshipapplicationdate>2011-02-22T00:00:00</hardshipapplicationdate>
+    <description>Team Review</description>
+    <date>2011-02-22T00:00:00</date>
+    <recommendation>None</recommendation>
+    <recommendedsettlement>0.00</recommendedsettlement>
+  </ROW>
+  <ROW>
+    <complaintid>MADC0265</complaintid>
+    <casenumber>10-05394</casenumber>
+    <name>Owen Buckmaster</name>
+    <hardshipapplicationdate>2011-02-22T00:00:00</hardshipapplicationdate>
+    <description>Team Review</description>
+    <date>2011-02-22T00:00:00</date>
+    <recommendation>None</recommendation>
+    <recommendedsettlement>0.00</recommendedsettlement>
+  </ROW>
+  <ROW>
+    <complaintid>MADC0265</complaintid>
+    <casenumber>10-05394</casenumber>
+    <name>Drew Buckmaster</name>
+    <hardshipapplicationdate>2011-02-28T00:00:00</hardshipapplicationdate>
+    <description>Team Review</description>
+    <date>2011-03-04T00:00:00</date>
+    <recommendation>None</recommendation>
+    <recommendedsettlement>0.00</recommendedsettlement>
+  </ROW>
+  <ROW>
+    <complaintid>MADC0265</complaintid>
+    <casenumber>10-05394</casenumber>
+    <name>Raleigh Dow Buckmaster, Jr.</name>
+    <hardshipapplicationdate>2011-02-22T00:00:00</hardshipapplicationdate>
+    <description>Team Review</description>
+    <date>2011-02-22T00:00:00</date>
+    <recommendation>None</recommendation>
+    <recommendedsettlement>0.00</recommendedsettlement>
+  </ROW>
+  <ROW>
+    <complaintid>MADC0265</complaintid>
+    <casenumber>10-05394</casenumber>
+    <name>JoEllen Buckmaster</name>
+    <hardshipapplicationdate>2011-02-01T00:00:00</hardshipapplicationdate>
+    <description>Team Review</description>
+    <date>2011-03-02T00:00:00</date>
+    <recommendation>None</recommendation>
+    <recommendedsettlement>0.00</recommendedsettlement>
+  </ROW>
+  <ROW>
+    <complaintid>MADC0265</complaintid>
+    <casenumber>10-05394</casenumber>
+    <name>Taj Inayat</name>
+    <hardshipapplicationdate>2011-02-22T00:00:00</hardshipapplicationdate>
+    <description>Team Review</description>
+    <date>2011-02-22T00:00:00</date>
+    <recommendation>None</recommendation>
+    <recommendedsettlement>0.00</recommendedsettlement>
+  </ROW>
+  <ROW>
+    <complaintid>MADC0265</complaintid>
+    <casenumber>10-05394</casenumber>
+    <name>Zia Inayat Khan</name>
+    <hardshipapplicationdate>2011-02-18T00:00:00</hardshipapplicationdate>
+    <description>Team Review</description>
+    <date>2011-02-20T00:00:00</date>
+    <recommendation>None</recommendation>
+    <recommendedsettlement>0.00</recommendedsettlement>
+  </ROW>
+  <ROW>
+    <complaintid>MADC0265</complaintid>
+    <casenumber>10-05394</casenumber>
+    <name>Mirza Inayat Khan</name>
+    <hardshipapplicationdate>2011-02-18T00:00:00</hardshipapplicationdate>
+    <description>Team Review</description>
+    <date>2011-02-20T00:00:00</date>
+    <recommendation>None</recommendation>
+    <recommendedsettlement>0.00</recommendedsettlement>
+  </ROW>
+  <ROW>
+    <complaintid>MADC0265</complaintid>
+    <casenumber>10-05394</casenumber>
+    <name>Nathan B. Johnson</name>
+    <hardshipapplicationdate>2011-02-18T00:00:00</hardshipapplicationdate>
+    <description>Team Review</description>
+    <date>2011-02-20T00:00:00</date>
+    <recommendation>None</recommendation>
+    <recommendedsettlement>0.00</recommendedsettlement>
+  </ROW>
+  <ROW>
+    <complaintid>MADC1102</complaintid>
+    <casenumber>10-05204</casenumber>
+    <name>Suzanne Le Vine</name>
+    <hardshipapplicationdate>2011-01-07T00:00:00</hardshipapplicationdate>
+    <description>Team Review</description>
+    <date>2011-03-01T00:00:00</date>
+    <recommendation>None</recommendation>
+    <recommendedsettlement>0.00</recommendedsettlement>
+  </ROW>
+  <ROW>
+    <complaintid>MADC1040</complaintid>
+    <casenumber>10-05431</casenumber>
+    <name>Cynthia Story, individually and in her capacity as joint tenant</name>
+    <hardshipapplicationdate>2010-12-29T00:00:00</hardshipapplicationdate>
+    <description>Team Review</description>
+    <date>2011-03-01T00:00:00</date>
+    <recommendation>None</recommendation>
+    <recommendedsettlement>0.00</recommendedsettlement>
+  </ROW>
+  <ROW>
+    <complaintid>MADC1040</complaintid>
+    <casenumber>10-05431</casenumber>
+    <name>Ted Story, individually and in his capacity as joint tenant</name>
+    <hardshipapplicationdate>2010-12-29T00:00:00</hardshipapplicationdate>
+    <description>Team Review</description>
+    <date>2011-02-28T00:00:00</date>
+    <recommendation>None</recommendation>
+    <recommendedsettlement>0.00</recommendedsettlement>
+  </ROW>
+  <ROW>
+    <complaintid>MADC0876</complaintid>
+    <casenumber>10-04644</casenumber>
+    <name>RUSSELL L. DUSEK</name>
+    <hardshipapplicationdate>2010-12-27T00:00:00</hardshipapplicationdate>
+    <description>Hardship Committee Review</description>
+    <date>2011-02-18T00:00:00</date>
+    <recommendation>None</recommendation>
+    <recommendedsettlement>0.00</recommendedsettlement>
+  </ROW>
+  <ROW>
+    <complaintid>MADC0891</complaintid>
+    <casenumber>10-05124</casenumber>
+    <name>Theresa R. Ryan</name>
+    <hardshipapplicationdate>2011-01-13T00:00:00</hardshipapplicationdate>
+    <description>Team Review</description>
+    <date>2011-01-13T00:00:00</date>
+    <recommendation>None</recommendation>
+    <recommendedsettlement>0.00</recommendedsettlement>
+  </ROW>
+  <ROW>
+    <complaintid>MADC0891</complaintid>
+    <casenumber>10-05124</casenumber>
+    <name>Lawrence J. Ryan By-Pass Trust Under Declaration of Trust Dated November 20, 1991</name>
+    <hardshipapplicationdate>2011-01-13T00:00:00</hardshipapplicationdate>
+    <description>Team Review</description>
+    <date>2011-03-01T00:00:00</date>
+    <recommendation>None</recommendation>
+    <recommendedsettlement>0.00</recommendedsettlement>
+  </ROW>
+  <ROW>
+    <complaintid>MADC0891</complaintid>
+    <casenumber>10-05124</casenumber>
+    <name>Lawrence J. Ryan and Theresa R. Ryan Revocable Living Trust</name>
+    <hardshipapplicationdate>2011-01-13T00:00:00</hardshipapplicationdate>
+    <description>Team Review</description>
+    <date>2011-02-16T00:00:00</date>
+    <recommendation>None</recommendation>
+    <recommendedsettlement>0.00</recommendedsettlement>
+  </ROW>
+  <ROW>
+    <complaintid>MADC0887</complaintid>
+    <casenumber>10-05201</casenumber>
+    <name>Steven H. Grobstein</name>
+    <hardshipapplicationdate>2011-01-28T00:00:00</hardshipapplicationdate>
+    <description>Team Review</description>
+    <date>2011-02-07T00:00:00</date>
+    <recommendation>None</recommendation>
+    <recommendedsettlement>0.00</recommendedsettlement>
+  </ROW>
+  <ROW>
+    <complaintid>MADC0887</complaintid>
+    <casenumber>10-05201</casenumber>
+    <name>Donna Lefkowitz</name>
+    <hardshipapplicationdate>2011-01-07T00:00:00</hardshipapplicationdate>
+    <description>Team Review</description>
+    <date>2011-02-09T00:00:00</date>
+    <recommendation>None</recommendation>
+    <recommendedsettlement>0.00</recommendedsettlement>
+  </ROW>
+  <ROW>
+    <complaintid>MADC1102</complaintid>
+    <casenumber>10-05204</casenumber>
+    <name>Suzanne Le Vine Trust DTD 10/5/07</name>
+    <hardshipapplicationdate>2011-01-08T00:00:00</hardshipapplicationdate>
+    <description>Team Review</description>
+    <date>2011-01-08T00:00:00</date>
+    <recommendation>None</recommendation>
+    <recommendedsettlement>0.00</recommendedsettlement>
+  </ROW>
+  <ROW>
+    <complaintid>MADC0881</complaintid>
+    <casenumber>10-04884</casenumber>
+    <name>STEVEN ANDELMAN</name>
+    <hardshipapplicationdate>2011-02-07T00:00:00</hardshipapplicationdate>
+    <description>Team Review</description>
+    <date>2011-02-09T00:00:00</date>
+    <recommendation>None</recommendation>
+    <recommendedsettlement>0.00</recommendedsettlement>
+  </ROW>
+  <ROW>
+    <complaintid>MADC0078</complaintid>
+    <casenumber>10-04372</casenumber>
+    <name>Myron Wilk</name>
+    <hardshipapplicationdate>2011-02-23T00:00:00</hardshipapplicationdate>
+    <description>Team Review</description>
+    <date>2011-02-23T00:00:00</date>
+    <recommendation>None</recommendation>
+    <recommendedsettlement>0.00</recommendedsettlement>
+  </ROW>
+  <ROW>
+    <complaintid>MADC1064</complaintid>
+    <casenumber>10-05259</casenumber>
+    <name>Evelyn Fisher</name>
+    <hardshipapplicationdate>2011-02-07T00:00:00</hardshipapplicationdate>
+    <description>Team Review</description>
+    <date>2011-02-09T00:00:00</date>
+    <recommendation>None</recommendation>
+    <recommendedsettlement>0.00</recommendedsettlement>
+  </ROW>
+  <ROW>
+    <complaintid>MADC1064</complaintid>
+    <casenumber>10-05259</casenumber>
+    <name>Eunice Chervony Lehrer</name>
+    <hardshipapplicationdate>2011-02-01T00:00:00</hardshipapplicationdate>
+    <description>Team Review</description>
+    <date>2011-03-01T00:00:00</date>
+    <recommendation>None</recommendation>
+    <recommendedsettlement>0.00</recommendedsettlement>
+  </ROW>
+  <ROW>
+    <complaintid>MADC0901</complaintid>
+    <casenumber>10-04769</casenumber>
+    <name>Annette Jungreis, as trustee, and as an individual</name>
+    <hardshipapplicationdate>2010-12-28T00:00:00</hardshipapplicationdate>
+    <description>Team Review</description>
+    <date>2011-03-01T00:00:00</date>
+    <recommendation>None</recommendation>
+    <recommendedsettlement>0.00</recommendedsettlement>
+  </ROW>
+  <ROW>
+    <complaintid>MADC0901</complaintid>
+    <casenumber>10-04769</casenumber>
+    <name>Irving Jungreis, as trustor, as trustee, and as an individual</name>
+    <hardshipapplicationdate>2010-12-28T00:00:00</hardshipapplicationdate>
+    <description>Team Review</description>
+    <date>2011-03-01T00:00:00</date>
+    <recommendation>None</recommendation>
+    <recommendedsettlement>0.00</recommendedsettlement>
+  </ROW>
+  <ROW>
+    <complaintid>MADC0900</complaintid>
+    <casenumber>10-04760</casenumber>
+    <name>Irving Jungreis, as trustee, and as an individual</name>
+    <hardshipapplicationdate>2010-12-28T00:00:00</hardshipapplicationdate>
+    <description>Team Review</description>
+    <date>2011-03-01T00:00:00</date>
+    <recommendation>None</recommendation>
+    <recommendedsettlement>0.00</recommendedsettlement>
+  </ROW>
+  <ROW>
+    <complaintid>MADC0900</complaintid>
+    <casenumber>10-04760</casenumber>
+    <name>Annette Jungreis, as trustor, as trustee, and as an individual</name>
+    <hardshipapplicationdate>2010-12-28T00:00:00</hardshipapplicationdate>
+    <description>Team Review</description>
+    <date>2011-03-01T00:00:00</date>
+    <recommendation>None</recommendation>
+    <recommendedsettlement>0.00</recommendedsettlement>
+  </ROW>
+  <ROW>
+    <complaintid>MADC0372</complaintid>
+    <casenumber>10-04855</casenumber>
+    <name>HELENE TALANSKY, individually </name>
+    <hardshipapplicationdate>2011-01-05T00:00:00</hardshipapplicationdate>
+    <description>Hardship Committee Review</description>
+    <date>2011-03-04T00:00:00</date>
+    <recommendation>None</recommendation>
+    <recommendedsettlement>0.00</recommendedsettlement>
+  </ROW>
+  <ROW>
+    <complaintid>MADC0372</complaintid>
+    <casenumber>10-04855</casenumber>
+    <name>MORRIS TALANSKY, individually </name>
+    <hardshipapplicationdate>2011-01-05T00:00:00</hardshipapplicationdate>
+    <description>Hardship Committee Recommendation</description>
+    <date>2011-03-04T00:00:00</date>
+    <recommendation>None</recommendation>
+    <recommendedsettlement>0.00</recommendedsettlement>
+  </ROW>
+  <ROW>
+    <complaintid>MADC0372</complaintid>
+    <casenumber>10-04855</casenumber>
+    <name>MORRIS TALANSKY, in his capacity as trustee of the Morris Talansky Grantor Retained Annuity Trust Dated 11/12/02</name>
+    <hardshipapplicationdate>2011-01-05T00:00:00</hardshipapplicationdate>
+    <description>Hardship Committee Recommendation</description>
+    <date>2011-03-04T00:00:00</date>
+    <recommendation>None</recommendation>
+    <recommendedsettlement>0.00</recommendedsettlement>
+  </ROW>
+  <ROW>
+    <complaintid>MADC0384</complaintid>
+    <casenumber>10-05159</casenumber>
+    <name>THEODORE STORY, individually and as trustee of the STORY FAMILY TRUST #3</name>
+    <hardshipapplicationdate>2011-02-17T00:00:00</hardshipapplicationdate>
+    <description>Team Review</description>
+    <date>2011-02-17T00:00:00</date>
+    <recommendation>None</recommendation>
+    <recommendedsettlement>0.00</recommendedsettlement>
+  </ROW>
+  <ROW>
+    <complaintid>MADC0054</complaintid>
+    <casenumber>10-04303</casenumber>
+    <name>Garynn Cutroneo</name>
+    <hardshipapplicationdate>2011-02-07T00:00:00</hardshipapplicationdate>
+    <description>Team Review</description>
+    <date>2011-02-10T00:00:00</date>
+    <recommendation>None</recommendation>
+    <recommendedsettlement>0.00</recommendedsettlement>
+  </ROW>
+  <ROW>
+    <complaintid>MADC0956</complaintid>
+    <casenumber>10-04327</casenumber>
+    <name>Jane Alpern</name>
+    <hardshipapplicationdate>2011-01-15T00:00:00</hardshipapplicationdate>
+    <description>Team Review</description>
+    <date>2011-03-01T00:00:00</date>
+    <recommendation>None</recommendation>
+    <recommendedsettlement>0.00</recommendedsettlement>
+  </ROW>
+  <ROW>
+    <complaintid>MADC0956</complaintid>
+    <casenumber>10-04327</casenumber>
+    <name>Lewis Alpern</name>
+    <hardshipapplicationdate>2011-01-15T00:00:00</hardshipapplicationdate>
+    <description>Team Review</description>
+    <date>2011-03-01T00:00:00</date>
+    <recommendation>None</recommendation>
+    <recommendedsettlement>0.00</recommendedsettlement>
+  </ROW>
+  <ROW>
+    <complaintid>MADC0956</complaintid>
+    <casenumber>10-04327</casenumber>
+    <name>Gertrude E. Alpern Revocable Trust</name>
+    <hardshipapplicationdate>2011-02-01T00:00:00</hardshipapplicationdate>
+    <description>Team Review</description>
+    <date>2011-02-11T00:00:00</date>
+    <recommendation>None</recommendation>
+    <recommendedsettlement>0.00</recommendedsettlement>
+  </ROW>
+  <ROW>
+    <complaintid>MADC0682</complaintid>
+    <casenumber>10-04729</casenumber>
+    <name>Jeanette Metzger</name>
+    <hardshipapplicationdate>2011-02-07T00:00:00</hardshipapplicationdate>
+    <description>Team Review</description>
+    <date>2011-02-09T00:00:00</date>
+    <recommendation>None</recommendation>
+    <recommendedsettlement>0.00</recommendedsettlement>
+  </ROW>
+  <ROW>
+    <complaintid>MADC0682</complaintid>
+    <casenumber>10-04729</casenumber>
+    <name>Eric J. Metzger</name>
+    <hardshipapplicationdate>2011-02-07T00:00:00</hardshipapplicationdate>
+    <description>Team Review</description>
+    <date>2011-02-09T00:00:00</date>
+    <recommendation>None</recommendation>
+    <recommendedsettlement>0.00</recommendedsettlement>
+  </ROW>
+  <ROW>
+    <complaintid>MADC0923</complaintid>
+    <casenumber>10-04424</casenumber>
+    <name> SHIRLEY FRIEDMAN</name>
+    <hardshipapplicationdate>2011-02-01T00:00:00</hardshipapplicationdate>
+    <description>Team Review</description>
+    <date>2011-03-01T00:00:00</date>
+    <recommendation>None</recommendation>
+    <recommendedsettlement>0.00</recommendedsettlement>
+  </ROW>
+  <ROW>
+    <complaintid>MADC0922</complaintid>
+    <casenumber>10-04455</casenumber>
+    <name> DANIEL JACOBS</name>
+    <hardshipapplicationdate>2010-12-31T00:00:00</hardshipapplicationdate>
+    <description>Team Review</description>
+    <date>2011-03-01T00:00:00</date>
+    <recommendation>None</recommendation>
+    <recommendedsettlement>0.00</recommendedsettlement>
+  </ROW>
+  <ROW>
+    <complaintid>MADC0751</complaintid>
+    <casenumber>10-04977</casenumber>
+    <name>Helga Terry Campagna, as trustor, as trustee and as an individual</name>
+    <hardshipapplicationdate>2011-02-08T00:00:00</hardshipapplicationdate>
+    <description>Team Review</description>
+    <date>2011-03-01T00:00:00</date>
+    <recommendation>None</recommendation>
+    <recommendedsettlement>0.00</recommendedsettlement>
+  </ROW>
+  <ROW>
+    <complaintid>MADC0751</complaintid>
+    <casenumber>10-04977</casenumber>
+    <name>Leonard Campagna, as trustor, as trustee and as an individual</name>
+    <hardshipapplicationdate>2011-02-08T00:00:00</hardshipapplicationdate>
+    <description>Team Review</description>
+    <date>2011-03-01T00:00:00</date>
+    <recommendation>None</recommendation>
+    <recommendedsettlement>0.00</recommendedsettlement>
+  </ROW>
+  <ROW>
+    <complaintid>MADC0626</complaintid>
+    <casenumber>10-05154</casenumber>
+    <name> Martin Schupak</name>
+    <hardshipapplicationdate>2011-02-14T00:00:00</hardshipapplicationdate>
+    <description>Team Review</description>
+    <date>2011-02-21T00:00:00</date>
+    <recommendation>None</recommendation>
+    <recommendedsettlement>0.00</recommendedsettlement>
+  </ROW>
+  <ROW>
+    <complaintid>MADC0585</complaintid>
+    <casenumber>10-04735</casenumber>
+    <name> Steven Goldman</name>
+    <hardshipapplicationdate>2010-12-30T00:00:00</hardshipapplicationdate>
+    <description>Team Review</description>
+    <date>2011-03-04T00:00:00</date>
+    <recommendation>None</recommendation>
+    <recommendedsettlement>0.00</recommendedsettlement>
+  </ROW>
+  <ROW>
+    <complaintid>MADC0556</complaintid>
+    <casenumber>10-05146</casenumber>
+    <name>Lori A. Lutz</name>
+    <hardshipapplicationdate>2010-12-28T00:00:00</hardshipapplicationdate>
+    <description>Team Review</description>
+    <date>2011-03-01T00:00:00</date>
+    <recommendation>None</recommendation>
+    <recommendedsettlement>0.00</recommendedsettlement>
+  </ROW>
+  <ROW>
+    <complaintid>MADC0461</complaintid>
+    <casenumber>10-04500</casenumber>
+    <name> Arthur Strickman</name>
+    <hardshipapplicationdate>2011-01-21T00:00:00</hardshipapplicationdate>
+    <description>Team Review</description>
+    <date>2011-01-21T00:00:00</date>
+    <recommendation>None</recommendation>
+    <recommendedsettlement>0.00</recommendedsettlement>
+  </ROW>
+  <ROW>
+    <complaintid>MADC0416</complaintid>
+    <casenumber>10-04610</casenumber>
+    <name> Bernard Whitman</name>
+    <hardshipapplicationdate>2010-12-20T00:00:00</hardshipapplicationdate>
+    <description>Hardship Committee Review</description>
+    <date>2011-02-18T00:00:00</date>
+    <recommendation>None</recommendation>
+    <recommendedsettlement>0.00</recommendedsettlement>
+  </ROW>
+  <ROW>
+    <complaintid>MADC0416</complaintid>
+    <casenumber>10-04610</casenumber>
+    <name> Bernard Whitman Revocable Living Trust U/A/D 8/5/86</name>
+    <hardshipapplicationdate>2010-12-20T00:00:00</hardshipapplicationdate>
+    <description>Team Review</description>
+    <date>2011-03-01T00:00:00</date>
+    <recommendation>None</recommendation>
+    <recommendedsettlement>0.00</recommendedsettlement>
+  </ROW>
+  <ROW>
+    <complaintid>MADC0416</complaintid>
+    <casenumber>10-04610</casenumber>
+    <name> Judith Whitman</name>
+    <hardshipapplicationdate>2010-12-20T00:00:00</hardshipapplicationdate>
+    <description>Hardship Committee Review</description>
+    <date>2011-02-18T00:00:00</date>
+    <recommendation>None</recommendation>
+    <recommendedsettlement>0.00</recommendedsettlement>
+  </ROW>
+  <ROW>
+    <complaintid>MADC0849</complaintid>
+    <casenumber>10-04804</casenumber>
+    <name>Eric Metzger, as trustee, and as an individual</name>
+    <hardshipapplicationdate>2011-02-07T00:00:00</hardshipapplicationdate>
+    <description>Team Review</description>
+    <date>2011-02-09T00:00:00</date>
+    <recommendation>None</recommendation>
+    <recommendedsettlement>0.00</recommendedsettlement>
+  </ROW>
+  <ROW>
+    <complaintid>MADC0849</complaintid>
+    <casenumber>10-04804</casenumber>
+    <name>Jeanette Metzger, as trustor, as trustee, and as an individual</name>
+    <hardshipapplicationdate>2011-02-07T00:00:00</hardshipapplicationdate>
+    <description>Team Review</description>
+    <date>2011-02-09T00:00:00</date>
+    <recommendation>None</recommendation>
+    <recommendedsettlement>0.00</recommendedsettlement>
+  </ROW>
+  <ROW>
+    <complaintid>MADC0521</complaintid>
+    <casenumber>10-05378</casenumber>
+    <name>Sally Hill</name>
+    <hardshipapplicationdate>2011-02-17T00:00:00</hardshipapplicationdate>
+    <description>Team Review</description>
+    <date>2011-02-17T00:00:00</date>
+    <recommendation>None</recommendation>
+    <recommendedsettlement>0.00</recommendedsettlement>
+  </ROW>
+  <ROW>
+    <complaintid>MADC0955</complaintid>
+    <casenumber>10-04308</casenumber>
+    <name>Jane Alpern</name>
+    <hardshipapplicationdate>2011-01-15T00:00:00</hardshipapplicationdate>
+    <description>Team Review</description>
+    <date>2011-03-01T00:00:00</date>
+    <recommendation>None</recommendation>
+    <recommendedsettlement>0.00</recommendedsettlement>
+  </ROW>
+  <ROW>
+    <complaintid>MADC0843</complaintid>
+    <casenumber>10-05160</casenumber>
+    <name>Lanny Rose, as trustor, as trustee and as an individual</name>
+    <hardshipapplicationdate>2010-12-20T00:00:00</hardshipapplicationdate>
+    <description>Team Review</description>
+    <date>2011-03-01T00:00:00</date>
+    <recommendation>None</recommendation>
+    <recommendedsettlement>0.00</recommendedsettlement>
+  </ROW>
+  <ROW>
+    <complaintid>MADC0928</complaintid>
+    <casenumber>10-04420</casenumber>
+    <name>JEFFREY SISKIND</name>
+    <hardshipapplicationdate>2011-01-26T00:00:00</hardshipapplicationdate>
+    <description>Team Review</description>
+    <date>2011-02-07T00:00:00</date>
+    <recommendation>None</recommendation>
+    <recommendedsettlement>0.00</recommendedsettlement>
+  </ROW>
+  <ROW>
+    <complaintid>MADC0922</complaintid>
+    <casenumber>10-04455</casenumber>
+    <name>FRANCES BLUM</name>
+    <hardshipapplicationdate>2010-12-31T00:00:00</hardshipapplicationdate>
+    <description>Team Review</description>
+    <date>2011-03-01T00:00:00</date>
+    <recommendation>None</recommendation>
+    <recommendedsettlement>0.00</recommendedsettlement>
+  </ROW>
+  <ROW>
+    <complaintid>MADC0853</complaintid>
+    <casenumber>10-04732</casenumber>
+    <name>John J. Kone</name>
+    <hardshipapplicationdate>2011-02-25T00:00:00</hardshipapplicationdate>
+    <description>Team Review</description>
+    <date>2011-02-25T00:00:00</date>
+    <recommendation>None</recommendation>
+    <recommendedsettlement>0.00</recommendedsettlement>
+  </ROW>
+  <ROW>
+    <complaintid>MADC0849</complaintid>
+    <casenumber>10-04804</casenumber>
+    <name>Jeanette Metzger Living Trust Dated August 4 1994</name>
+    <hardshipapplicationdate>2011-02-07T00:00:00</hardshipapplicationdate>
+    <description>Team Review</description>
+    <date>2011-02-09T00:00:00</date>
+    <recommendation>None</recommendation>
+    <recommendedsettlement>0.00</recommendedsettlement>
+  </ROW>
+  <ROW>
+    <complaintid>MADC0729</complaintid>
+    <casenumber>10-04916</casenumber>
+    <name>Susan Andelman</name>
+    <hardshipapplicationdate>2010-12-31T00:00:00</hardshipapplicationdate>
+    <description>Team Review</description>
+    <date>2011-03-01T00:00:00</date>
+    <recommendation>None</recommendation>
+    <recommendedsettlement>0.00</recommendedsettlement>
+  </ROW>
+  <ROW>
+    <complaintid>MADC0682</complaintid>
+    <casenumber>10-04729</casenumber>
+    <name>Eric J. Metzger Living Trust</name>
+    <hardshipapplicationdate>2011-02-07T00:00:00</hardshipapplicationdate>
+    <description>Team Review</description>
+    <date>2011-02-09T00:00:00</date>
+    <recommendation>None</recommendation>
+    <recommendedsettlement>0.00</recommendedsettlement>
+  </ROW>
+  <ROW>
+    <complaintid>MADC0674</complaintid>
+    <casenumber>10-04700</casenumber>
+    <name>Calvin Berkowitz</name>
+    <hardshipapplicationdate>2011-02-14T00:00:00</hardshipapplicationdate>
+    <description>Trustee Determination</description>
+    <date>2011-02-22T00:00:00</date>
+    <recommendation>None</recommendation>
+    <recommendedsettlement>0.00</recommendedsettlement>
+  </ROW>
+  <ROW>
+    <complaintid>MADC0654</complaintid>
+    <casenumber>10-04668</casenumber>
+    <name>Timothy Shawn Teufel</name>
+    <hardshipapplicationdate>2010-12-28T00:00:00</hardshipapplicationdate>
+    <description>Hardship Committee Review</description>
+    <date>2011-02-18T00:00:00</date>
+    <recommendation>None</recommendation>
+    <recommendedsettlement>0.00</recommendedsettlement>
+  </ROW>
+  <ROW>
+    <complaintid>MADC0640</complaintid>
+    <casenumber>10-04859</casenumber>
+    <name>Laurie Ann Margolies</name>
+    <hardshipapplicationdate>2011-01-18T00:00:00</hardshipapplicationdate>
+    <description>Team Review</description>
+    <date>2011-01-18T00:00:00</date>
+    <recommendation>None</recommendation>
+    <recommendedsettlement>0.00</recommendedsettlement>
+  </ROW>
+  <ROW>
+    <complaintid>MADC0639</complaintid>
+    <casenumber>10-04548</casenumber>
+    <name>Jack Nadrich</name>
+    <hardshipapplicationdate>2011-02-09T00:00:00</hardshipapplicationdate>
+    <description>Team Review</description>
+    <date>2011-02-11T00:00:00</date>
+    <recommendation>None</recommendation>
+    <recommendedsettlement>0.00</recommendedsettlement>
+  </ROW>
+  <ROW>
+    <complaintid>MADC0636</complaintid>
+    <casenumber>10-04458</casenumber>
+    <name>Richard A. Guggenheimer</name>
+    <hardshipapplicationdate>2010-12-28T00:00:00</hardshipapplicationdate>
+    <description>Team Review</description>
+    <date>2011-03-01T00:00:00</date>
+    <recommendation>None</recommendation>
+    <recommendedsettlement>0.00</recommendedsettlement>
+  </ROW>
+  <ROW>
+    <complaintid>MADC0611</complaintid>
+    <casenumber>10-04836</casenumber>
+    <name>Estelle G. Teitelbaum</name>
+    <hardshipapplicationdate>2010-12-16T00:00:00</hardshipapplicationdate>
+    <description>Team Review</description>
+    <date>2010-12-16T00:00:00</date>
+    <recommendation>None</recommendation>
+    <recommendedsettlement>0.00</recommendedsettlement>
+  </ROW>
+  <ROW>
+    <complaintid>MADC0556</complaintid>
+    <casenumber>10-05146</casenumber>
+    <name>Union Sales Associates, LLC</name>
+    <hardshipapplicationdate>2010-12-28T00:00:00</hardshipapplicationdate>
+    <description>Team Review</description>
+    <date>2010-12-28T00:00:00</date>
+    <recommendation>None</recommendation>
+    <recommendedsettlement>0.00</recommendedsettlement>
+  </ROW>
+  <ROW>
+    <complaintid>MADC0476</complaintid>
+    <casenumber>10-04497</casenumber>
+    <name>Edward L. Sleeper</name>
+    <hardshipapplicationdate>2011-03-01T00:00:00</hardshipapplicationdate>
+    <description>Team Review</description>
+    <date>2011-03-04T00:00:00</date>
+    <recommendation>None</recommendation>
+    <recommendedsettlement>0.00</recommendedsettlement>
+  </ROW>
+  <ROW>
+    <complaintid>MADC0472</complaintid>
+    <casenumber>10-04783</casenumber>
+    <name>Arthur E Strickman</name>
+    <hardshipapplicationdate>2011-01-21T00:00:00</hardshipapplicationdate>
+    <description>Team Review</description>
+    <date>2011-03-01T00:00:00</date>
+    <recommendation>None</recommendation>
+    <recommendedsettlement>0.00</recommendedsettlement>
+  </ROW>
+  <ROW>
+    <complaintid>MADC0455</complaintid>
+    <casenumber>10-04871</casenumber>
+    <name>Donald S. Kent</name>
+    <hardshipapplicationdate>2011-02-24T00:00:00</hardshipapplicationdate>
+    <description>Team Review</description>
+    <date>2011-02-25T00:00:00</date>
+    <recommendation>None</recommendation>
+    <recommendedsettlement>0.00</recommendedsettlement>
+  </ROW>
+  <ROW>
+    <complaintid>MADC0372</complaintid>
+    <casenumber>10-04855</casenumber>
+    <name>MORRIS TALANSKY GRANTOR RETAINED ANNUITY TRUST DATED 11/12/02</name>
+    <hardshipapplicationdate>2011-01-05T00:00:00</hardshipapplicationdate>
+    <description>Hardship Committee Review</description>
+    <date>2011-03-04T00:00:00</date>
+    <recommendation>None</recommendation>
+    <recommendedsettlement>0.00</recommendedsettlement>
+  </ROW>
+  <ROW>
+    <complaintid>MADC0318</complaintid>
+    <casenumber>10-05284</casenumber>
+    <name>Benjamin W. Roth</name>
+    <hardshipapplicationdate>2011-01-28T00:00:00</hardshipapplicationdate>
+    <description>Team Review</description>
+    <date>2011-01-28T00:00:00</date>
+    <recommendation>None</recommendation>
+    <recommendedsettlement>0.00</recommendedsettlement>
+  </ROW>
+  <ROW>
+    <complaintid>MADC0288</complaintid>
+    <casenumber>10-04786</casenumber>
+    <name>Edwin Michalove</name>
+    <hardshipapplicationdate>2011-01-05T00:00:00</hardshipapplicationdate>
+    <description>Team Recommendation</description>
+    <date>2011-03-02T00:00:00</date>
+    <recommendation>None</recommendation>
+    <recommendedsettlement>0.00</recommendedsettlement>
+  </ROW>
+  <ROW>
+    <complaintid>MADC0748</complaintid>
+    <casenumber>10-04582</casenumber>
+    <name>Gerald Blumenthal</name>
+    <hardshipapplicationdate>2011-01-25T00:00:00</hardshipapplicationdate>
+    <description>Team Recommendation</description>
+    <date>2011-03-01T00:00:00</date>
+    <recommendation>Approve And Dismiss</recommendation>
+    <recommendedsettlement>0.00</recommendedsettlement>
+  </ROW>
+  <ROW>
+    <complaintid>MADC1019</complaintid>
+    <casenumber>10-04778</casenumber>
+    <name>ANNETTE L WEISER</name>
+    <hardshipapplicationdate>2011-01-10T00:00:00</hardshipapplicationdate>
+    <description>Team Recommendation</description>
+    <date>2011-02-22T00:00:00</date>
+    <recommendation>Approve And Dismiss</recommendation>
+    <recommendedsettlement>0.00</recommendedsettlement>
+  </ROW>
+  <ROW>
+    <complaintid>MADC0673</complaintid>
+    <casenumber>10-04758</casenumber>
+    <name>Calvin Berkowitz</name>
+    <hardshipapplicationdate>2011-02-14T00:00:00</hardshipapplicationdate>
+    <description>Trustee Determination</description>
+    <date>2011-02-22T00:00:00</date>
+    <recommendation>Approve And Dismiss</recommendation>
+    <recommendedsettlement>0.00</recommendedsettlement>
+  </ROW>
+  <ROW>
+    <complaintid>MADC0822</complaintid>
+    <casenumber>10-04763</casenumber>
+    <name>Ronald F. Manzo, as tenant in common, as joint tenant, and as an individual</name>
+    <hardshipapplicationdate>2011-01-08T00:00:00</hardshipapplicationdate>
+    <description>Team Recommendation</description>
+    <date>2011-03-02T00:00:00</date>
+    <recommendation>Approve And Dismiss</recommendation>
+    <recommendedsettlement>0.00</recommendedsettlement>
+  </ROW>
+  <ROW>
+    <complaintid>MADC0813</complaintid>
+    <casenumber>10-05035</casenumber>
+    <name>Robert K. Low</name>
+    <hardshipapplicationdate>2011-01-11T00:00:00</hardshipapplicationdate>
+    <description>Team Recommendation</description>
+    <date>2011-02-25T00:00:00</date>
+    <recommendation>Approve And Dismiss</recommendation>
+    <recommendedsettlement>0.00</recommendedsettlement>
+  </ROW>
+  <ROW>
+    <complaintid>MADC0812</complaintid>
+    <casenumber>10-04862</casenumber>
+    <name>Frieda Low</name>
+    <hardshipapplicationdate>2011-01-11T00:00:00</hardshipapplicationdate>
+    <description>Team Recommendation</description>
+    <date>2011-02-25T00:00:00</date>
+    <recommendation>Approve And Dismiss</recommendation>
+    <recommendedsettlement>0.00</recommendedsettlement>
+  </ROW>
+  <ROW>
+    <complaintid>MADC0758</complaintid>
+    <casenumber>10-04963</casenumber>
+    <name>Beth P. Feldman Trust</name>
+    <hardshipapplicationdate>2011-01-03T00:00:00</hardshipapplicationdate>
+    <description>Trustee Determination</description>
+    <date>2011-03-04T00:00:00</date>
+    <recommendation>Approve And Dismiss</recommendation>
+    <recommendedsettlement>0.00</recommendedsettlement>
+  </ROW>
+  <ROW>
+    <complaintid>MADC0909</complaintid>
+    <casenumber>10-04902</casenumber>
+    <name>MISHKIN FAMILY TRUST</name>
+    <hardshipapplicationdate>2011-01-18T00:00:00</hardshipapplicationdate>
+    <description>Team Recommendation</description>
+    <date>2011-03-01T00:00:00</date>
+    <recommendation>Approve And Dismiss</recommendation>
+    <recommendedsettlement>0.00</recommendedsettlement>
+  </ROW>
+  <ROW>
+    <complaintid>MADC0901</complaintid>
+    <casenumber>10-04769</casenumber>
+    <name>Irving Jungreis Trust Dated May 13, 1993</name>
+    <hardshipapplicationdate>2010-12-28T00:00:00</hardshipapplicationdate>
+    <description>Team Recommendation</description>
+    <date>2011-02-28T00:00:00</date>
+    <recommendation>Approve And Dismiss</recommendation>
+    <recommendedsettlement>0.00</recommendedsettlement>
+  </ROW>
+  <ROW>
+    <complaintid>MADC0900</complaintid>
+    <casenumber>10-04760</casenumber>
+    <name>Annette Jungreis Trust Dated May 13, 1993</name>
+    <hardshipapplicationdate>2010-12-28T00:00:00</hardshipapplicationdate>
+    <description>Team Recommendation</description>
+    <date>2011-02-28T00:00:00</date>
+    <recommendation>Approve And Dismiss</recommendation>
+    <recommendedsettlement>0.00</recommendedsettlement>
+  </ROW>
+  <ROW>
+    <complaintid>MADC0858</complaintid>
+    <casenumber>10-04740</casenumber>
+    <name>Robert Hirsch, as joint tenant, and as an individual</name>
+    <hardshipapplicationdate>2010-12-20T00:00:00</hardshipapplicationdate>
+    <description>Team Recommendation</description>
+    <date>2011-03-01T00:00:00</date>
+    <recommendation>Approve And Dismiss</recommendation>
+    <recommendedsettlement>0.00</recommendedsettlement>
+  </ROW>
+  <ROW>
+    <complaintid>MADC0853</complaintid>
+    <casenumber>10-04732</casenumber>
+    <name> Duane E. Reynolds Sr.</name>
+    <hardshipapplicationdate>2011-02-20T00:00:00</hardshipapplicationdate>
+    <description>Team Recommendation</description>
+    <date>2011-03-04T00:00:00</date>
+    <recommendation>Approve And Dismiss</recommendation>
+    <recommendedsettlement>0.00</recommendedsettlement>
+  </ROW>
+  <ROW>
+    <complaintid>MADC0853</complaintid>
+    <casenumber>10-04732</casenumber>
+    <name> Doris R. Reynolds</name>
+    <hardshipapplicationdate>2011-02-20T00:00:00</hardshipapplicationdate>
+    <description>Team Recommendation</description>
+    <date>2011-03-04T00:00:00</date>
+    <recommendation>Approve And Dismiss</recommendation>
+    <recommendedsettlement>0.00</recommendedsettlement>
+  </ROW>
+  <ROW>
+    <complaintid>MADC0810</complaintid>
+    <casenumber>10-04893</casenumber>
+    <name>BELLE LIEBLEIN, as trustor, as trustee and as an individual</name>
+    <hardshipapplicationdate>2011-01-31T00:00:00</hardshipapplicationdate>
+    <description>Team Recommendation</description>
+    <date>2011-03-01T00:00:00</date>
+    <recommendation>Approve And Dismiss</recommendation>
+    <recommendedsettlement>0.00</recommendedsettlement>
+  </ROW>
+  <ROW>
+    <complaintid>MADC0805</complaintid>
+    <casenumber>10-04346</casenumber>
+    <name>GLORIA HENDLER, as trustee of the MILTON HENDLER RESIDUARY TRUST</name>
+    <hardshipapplicationdate>2011-02-10T00:00:00</hardshipapplicationdate>
+    <description>Hardship Committee Recommendation</description>
+    <date>2011-03-04T00:00:00</date>
+    <recommendation>Approve And Dismiss</recommendation>
+    <recommendedsettlement>0.00</recommendedsettlement>
+  </ROW>
+  <ROW>
+    <complaintid>MADC0805</complaintid>
+    <casenumber>10-04346</casenumber>
+    <name>MILTON HENDLER RESIDUARY TRUST, as General Partner of Lucky Company</name>
+    <hardshipapplicationdate>2011-02-10T00:00:00</hardshipapplicationdate>
+    <description>Trustee Determination</description>
+    <date>2011-03-04T00:00:00</date>
+    <recommendation>Approve And Dismiss</recommendation>
+    <recommendedsettlement>0.00</recommendedsettlement>
+  </ROW>
+  <ROW>
+    <complaintid>MADC0805</complaintid>
+    <casenumber>10-04346</casenumber>
+    <name>BETH H. GERSTEN (aka BETH HENDLER), as General Partner of Lucky Company</name>
+    <hardshipapplicationdate>2011-02-10T00:00:00</hardshipapplicationdate>
+    <description>Trustee Determination</description>
+    <date>2011-03-04T00:00:00</date>
+    <recommendation>Approve And Dismiss</recommendation>
+    <recommendedsettlement>0.00</recommendedsettlement>
+  </ROW>
+  <ROW>
+    <complaintid>MADC0809</complaintid>
+    <casenumber>10-04490</casenumber>
+    <name> SHIRLEY CHARMS</name>
+    <hardshipapplicationdate>2011-02-23T00:00:00</hardshipapplicationdate>
+    <description>Team Recommendation</description>
+    <date>2011-03-04T00:00:00</date>
+    <recommendation>Approve And Dismiss</recommendation>
+    <recommendedsettlement>0.00</recommendedsettlement>
+  </ROW>
+  <ROW>
+    <complaintid>MADC0809</complaintid>
+    <casenumber>10-04490</casenumber>
+    <name> DENISE HENDLER</name>
+    <hardshipapplicationdate>2011-02-15T00:00:00</hardshipapplicationdate>
+    <description>Team Recommendation</description>
+    <date>2011-03-01T00:00:00</date>
+    <recommendation>Approve And Dismiss</recommendation>
+    <recommendedsettlement>0.00</recommendedsettlement>
+  </ROW>
+  <ROW>
+    <complaintid>MADC0809</complaintid>
+    <casenumber>10-04490</casenumber>
+    <name> MARK HENDLER</name>
+    <hardshipapplicationdate>2011-02-15T00:00:00</hardshipapplicationdate>
+    <description>Team Recommendation</description>
+    <date>2011-03-01T00:00:00</date>
+    <recommendation>Approve And Dismiss</recommendation>
+    <recommendedsettlement>0.00</recommendedsettlement>
+  </ROW>
+  <ROW>
+    <complaintid>MADC0809</complaintid>
+    <casenumber>10-04490</casenumber>
+    <name> SANDRA RAMIREZ</name>
+    <hardshipapplicationdate>2011-02-09T00:00:00</hardshipapplicationdate>
+    <description>Trustee Determination</description>
+    <date>2011-03-04T00:00:00</date>
+    <recommendation>Approve And Dismiss</recommendation>
+    <recommendedsettlement>0.00</recommendedsettlement>
+  </ROW>
+  <ROW>
+    <complaintid>MADC0809</complaintid>
+    <casenumber>10-04490</casenumber>
+    <name> BRIGID BUCHANAN</name>
+    <hardshipapplicationdate>2011-02-22T00:00:00</hardshipapplicationdate>
+    <description>Team Recommendation</description>
+    <date>2011-02-25T00:00:00</date>
+    <recommendation>Approve And Dismiss</recommendation>
+    <recommendedsettlement>0.00</recommendedsettlement>
+  </ROW>
+  <ROW>
+    <complaintid>MADC0809</complaintid>
+    <casenumber>10-04490</casenumber>
+    <name>GLORIA HENDLER, as trustee and as an individual</name>
+    <hardshipapplicationdate>2011-02-10T00:00:00</hardshipapplicationdate>
+    <description>Hardship Committee Recommendation</description>
+    <date>2011-03-04T00:00:00</date>
+    <recommendation>Approve And Dismiss</recommendation>
+    <recommendedsettlement>0.00</recommendedsettlement>
+  </ROW>
+  <ROW>
+    <complaintid>MADC0809</complaintid>
+    <casenumber>10-04490</casenumber>
+    <name> GLORIA HENDLER REVOCABLE TRUST</name>
+    <hardshipapplicationdate>2011-02-10T00:00:00</hardshipapplicationdate>
+    <description>Hardship Committee Recommendation</description>
+    <date>2011-03-04T00:00:00</date>
+    <recommendation>Approve And Dismiss</recommendation>
+    <recommendedsettlement>0.00</recommendedsettlement>
+  </ROW>
+  <ROW>
+    <complaintid>MADC0809</complaintid>
+    <casenumber>10-04490</casenumber>
+    <name>MILTON HENDLER RESIDUARY TRUST, as General Partner of Lucky Company</name>
+    <hardshipapplicationdate>2011-02-10T00:00:00</hardshipapplicationdate>
+    <description>Hardship Committee Recommendation</description>
+    <date>2011-03-04T00:00:00</date>
+    <recommendation>Approve And Dismiss</recommendation>
+    <recommendedsettlement>0.00</recommendedsettlement>
+  </ROW>
+  <ROW>
+    <complaintid>MADC0809</complaintid>
+    <casenumber>10-04490</casenumber>
+    <name>BETH H. GERSTEN (aka BETH HENDLER), as General Partner of Lucky Company, as Partner of Munchkins, and as an individual</name>
+    <hardshipapplicationdate>2011-02-10T00:00:00</hardshipapplicationdate>
+    <description>Hardship Committee Recommendation</description>
+    <date>2011-03-04T00:00:00</date>
+    <recommendation>Approve And Dismiss</recommendation>
+    <recommendedsettlement>0.00</recommendedsettlement>
+  </ROW>
+  <ROW>
+    <complaintid>MADC0822</complaintid>
+    <casenumber>10-04763</casenumber>
+    <name>Carissa L. Manzo, as tenant in common and as an individual</name>
+    <hardshipapplicationdate>2011-01-08T00:00:00</hardshipapplicationdate>
+    <description>Team Recommendation</description>
+    <date>2011-03-02T00:00:00</date>
+    <recommendation>Approve And Dismiss</recommendation>
+    <recommendedsettlement>0.00</recommendedsettlement>
+  </ROW>
+  <ROW>
+    <complaintid>MADC0822</complaintid>
+    <casenumber>10-04763</casenumber>
+    <name>Donna L. Manzo, as tenant in common, as joint tenant, and as an individual</name>
+    <hardshipapplicationdate>2011-01-08T00:00:00</hardshipapplicationdate>
+    <description>Team Recommendation</description>
+    <date>2011-03-02T00:00:00</date>
+    <recommendation>Approve And Dismiss</recommendation>
+    <recommendedsettlement>0.00</recommendedsettlement>
+  </ROW>
+  <ROW>
+    <complaintid>MADC0758</complaintid>
+    <casenumber>10-04963</casenumber>
+    <name> Beth P. Feldman as trustee and as an individual</name>
+    <hardshipapplicationdate>2011-01-03T00:00:00</hardshipapplicationdate>
+    <description>Trustee Determination</description>
+    <date>2011-03-04T00:00:00</date>
+    <recommendation>Approve And Dismiss</recommendation>
+    <recommendedsettlement>0.00</recommendedsettlement>
+  </ROW>
+  <ROW>
+    <complaintid>MADC0841</complaintid>
+    <casenumber>10-04964</casenumber>
+    <name>Lila S. Gerlin as trustor, as trustee, and as an individual</name>
+    <hardshipapplicationdate>2011-02-02T00:00:00</hardshipapplicationdate>
+    <description>Team Recommendation</description>
+    <date>2011-03-02T00:00:00</date>
+    <recommendation>Approve And Dismiss</recommendation>
+    <recommendedsettlement>0.00</recommendedsettlement>
+  </ROW>
+  <ROW>
+    <complaintid>MADC0858</complaintid>
+    <casenumber>10-04740</casenumber>
+    <name>Lee Hirsch, as joint tenant, and as an individual</name>
+    <hardshipapplicationdate>2010-12-20T00:00:00</hardshipapplicationdate>
+    <description>Team Recommendation</description>
+    <date>2011-03-01T00:00:00</date>
+    <recommendation>Approve And Dismiss</recommendation>
+    <recommendedsettlement>0.00</recommendedsettlement>
+  </ROW>
+  <ROW>
+    <complaintid>MADC0674</complaintid>
+    <casenumber>10-04700</casenumber>
+    <name>Bertha Berkowitz</name>
+    <hardshipapplicationdate>2011-02-14T00:00:00</hardshipapplicationdate>
+    <description>Trustee Determination</description>
+    <date>2011-02-22T00:00:00</date>
+    <recommendation>Approve And Dismiss</recommendation>
+    <recommendedsettlement>0.00</recommendedsettlement>
+  </ROW>
+  <ROW>
+    <complaintid>MADC0673</complaintid>
+    <casenumber>10-04758</casenumber>
+    <name>Bertha Berkowitz</name>
+    <hardshipapplicationdate>2011-02-14T00:00:00</hardshipapplicationdate>
+    <description>Trustee Determination</description>
+    <date>2011-02-22T00:00:00</date>
+    <recommendation>Approve And Dismiss</recommendation>
+    <recommendedsettlement>0.00</recommendedsettlement>
+  </ROW>
+  <ROW>
+    <complaintid>MADC0874</complaintid>
+    <casenumber>10-04720</casenumber>
+    <name>CALVIN BERKOWITZ</name>
+    <hardshipapplicationdate>2011-02-14T00:00:00</hardshipapplicationdate>
+    <description>Trustee Determination</description>
+    <date>2011-02-22T00:00:00</date>
+    <recommendation>Approve And Dismiss</recommendation>
+    <recommendedsettlement>0.00</recommendedsettlement>
+  </ROW>
+  <ROW>
+    <complaintid>MADC0874</complaintid>
+    <casenumber>10-04720</casenumber>
+    <name>BERTHA BERKOWITZ</name>
+    <hardshipapplicationdate>2011-02-14T00:00:00</hardshipapplicationdate>
+    <description>Trustee Determination</description>
+    <date>2011-02-22T00:00:00</date>
+    <recommendation>Approve And Dismiss</recommendation>
+    <recommendedsettlement>0.00</recommendedsettlement>
+  </ROW>
+  <ROW>
+    <complaintid>MADC0909</complaintid>
+    <casenumber>10-04902</casenumber>
+    <name>Julia Mishkin, as trustor and as an individual</name>
+    <hardshipapplicationdate>2011-01-18T00:00:00</hardshipapplicationdate>
+    <description>Team Recommendation</description>
+    <date>2011-03-01T00:00:00</date>
+    <recommendation>Approve And Dismiss</recommendation>
+    <recommendedsettlement>0.00</recommendedsettlement>
+  </ROW>
+  <ROW>
+    <complaintid>MADC0909</complaintid>
+    <casenumber>10-04902</casenumber>
+    <name>Ellen Mishkin, as trustor, as trustee and as an individual</name>
+    <hardshipapplicationdate>2011-01-18T00:00:00</hardshipapplicationdate>
+    <description>Team Recommendation</description>
+    <date>2011-03-01T00:00:00</date>
+    <recommendation>Approve And Dismiss</recommendation>
+    <recommendedsettlement>0.00</recommendedsettlement>
+  </ROW>
+  <ROW>
+    <complaintid>MADC0909</complaintid>
+    <casenumber>10-04902</casenumber>
+    <name>Grace Mishkin, as trustee and as an individual</name>
+    <hardshipapplicationdate>2011-01-18T00:00:00</hardshipapplicationdate>
+    <description>Team Recommendation</description>
+    <date>2011-03-01T00:00:00</date>
+    <recommendation>Approve And Dismiss</recommendation>
+    <recommendedsettlement>0.00</recommendedsettlement>
+  </ROW>
+  <ROW>
+    <complaintid>MADC0909</complaintid>
+    <casenumber>10-04902</casenumber>
+    <name>William S. Mishkin, as trustee and as an individual</name>
+    <hardshipapplicationdate>2011-01-18T00:00:00</hardshipapplicationdate>
+    <description>Team Recommendation</description>
+    <date>2011-03-01T00:00:00</date>
+    <recommendation>Approve And Dismiss</recommendation>
+    <recommendedsettlement>0.00</recommendedsettlement>
+  </ROW>
+  <ROW>
+    <complaintid>MADC1263</complaintid>
+    <casenumber>10-05309</casenumber>
+    <name>William M. Pressman</name>
+    <hardshipapplicationdate>2011-02-07T00:00:00</hardshipapplicationdate>
+    <description>Team Recommendation</description>
+    <date>2011-02-25T00:00:00</date>
+    <recommendation>Approve And Dismiss</recommendation>
+    <recommendedsettlement>0.00</recommendedsettlement>
+  </ROW>
+  <ROW>
+    <complaintid>MADC0981</complaintid>
+    <casenumber>10-05152</casenumber>
+    <name>NORTH SHORE CHILD &amp; FAMILY GUIDANCE ASSOCIATION INC</name>
+    <hardshipapplicationdate>2010-12-17T00:00:00</hardshipapplicationdate>
+    <description>Trustee Determination</description>
+    <date>2011-02-17T00:00:00</date>
+    <recommendation>Approve And Dismiss</recommendation>
+    <recommendedsettlement>0.00</recommendedsettlement>
+  </ROW>
+  <ROW>
+    <complaintid>MADC0389</complaintid>
+    <casenumber>10-05045</casenumber>
+    <name>MAXWELL Y. SIMKIN</name>
+    <hardshipapplicationdate>2011-01-14T00:00:00</hardshipapplicationdate>
+    <description>Hardship Committee Recommendation</description>
+    <date>2011-03-04T00:00:00</date>
+    <recommendation>Approve With Settlement</recommendation>
+    <recommendedsettlement>0.00</recommendedsettlement>
+  </ROW>
+  <ROW>
+    <complaintid>MADC0388</complaintid>
+    <casenumber>10-04812</casenumber>
+    <name>SHARI BLOCK JASON</name>
+    <hardshipapplicationdate>2011-02-07T00:00:00</hardshipapplicationdate>
+    <description>Team Recommendation</description>
+    <date>2011-02-18T00:00:00</date>
+    <recommendation>Approve With Settlement</recommendation>
+    <recommendedsettlement>0.00</recommendedsettlement>
+  </ROW>
+  <ROW>
+    <complaintid>MADC0585</complaintid>
+    <casenumber>10-04735</casenumber>
+    <name>Kara Fishbein Goldman</name>
+    <hardshipapplicationdate>2010-12-30T00:00:00</hardshipapplicationdate>
+    <description>Team Recommendation</description>
+    <date>2011-02-18T00:00:00</date>
+    <recommendation>Deny</recommendation>
+    <recommendedsettlement>0.00</recommendedsettlement>
+  </ROW>
+  <ROW>
+    <complaintid>MADC0564</complaintid>
+    <casenumber>10-04425</casenumber>
+    <name>Manuel O. Jaffe</name>
+    <hardshipapplicationdate>2011-02-01T00:00:00</hardshipapplicationdate>
+    <description>Team Recommendation</description>
+    <date>2011-02-11T00:00:00</date>
+    <recommendation>Deny</recommendation>
+    <recommendedsettlement>0.00</recommendedsettlement>
+  </ROW>
+  <ROW>
+    <complaintid>MADC0557</complaintid>
+    <casenumber>10-04834</casenumber>
+    <name>Robert M. Wallack</name>
+    <hardshipapplicationdate>2011-01-10T00:00:00</hardshipapplicationdate>
+    <description>Team Recommendation</description>
+    <date>2011-02-22T00:00:00</date>
+    <recommendation>Deny</recommendation>
+    <recommendedsettlement>0.00</recommendedsettlement>
+  </ROW>
+  <ROW>
+    <complaintid>MADC0955</complaintid>
+    <casenumber>10-04308</casenumber>
+    <name>Lewis Alpern</name>
+    <hardshipapplicationdate>2011-01-15T00:00:00</hardshipapplicationdate>
+    <description>Team Recommendation</description>
+    <date>2011-02-11T00:00:00</date>
+    <recommendation>Deny</recommendation>
+    <recommendedsettlement>0.00</recommendedsettlement>
+  </ROW>
+  <ROW>
+    <complaintid>MADC0537</complaintid>
+    <casenumber>10-05151</casenumber>
+    <name>Dana Lefavor</name>
+    <hardshipapplicationdate>2010-12-28T00:00:00</hardshipapplicationdate>
+    <description>Team Recommendation</description>
+    <date>2011-02-28T00:00:00</date>
+    <recommendation>Deny</recommendation>
+    <recommendedsettlement>0.00</recommendedsettlement>
+  </ROW>
+  <ROW>
+    <complaintid>MADC0956</complaintid>
+    <casenumber>10-04327</casenumber>
+    <name>Roberta Schwartz</name>
+    <hardshipapplicationdate>2011-02-01T00:00:00</hardshipapplicationdate>
+    <description>Team Recommendation</description>
+    <date>2011-02-16T00:00:00</date>
+    <recommendation>Deny</recommendation>
+    <recommendedsettlement>0.00</recommendedsettlement>
+  </ROW>
+  <ROW>
+    <complaintid>MADC0888</complaintid>
+    <casenumber>10-05435</casenumber>
+    <name>Stanley Hirschhorn</name>
+    <hardshipapplicationdate>2011-02-08T00:00:00</hardshipapplicationdate>
+    <description>Team Recommendation</description>
+    <date>2011-03-03T00:00:00</date>
+    <recommendation>Deny</recommendation>
+    <recommendedsettlement>0.00</recommendedsettlement>
+  </ROW>
+  <ROW>
+    <complaintid>MADC0888</complaintid>
+    <casenumber>10-05435</casenumber>
+    <name>Carla Hirschhorn</name>
+    <hardshipapplicationdate>2011-02-08T00:00:00</hardshipapplicationdate>
+    <description>Team Recommendation</description>
+    <date>2011-03-03T00:00:00</date>
+    <recommendation>Deny</recommendation>
+    <recommendedsettlement>0.00</recommendedsettlement>
+  </ROW>
+  <ROW>
+    <complaintid>MADC0654</complaintid>
+    <casenumber>10-04668</casenumber>
+    <name> Valerie Ann Teufel</name>
+    <hardshipapplicationdate>2010-12-28T00:00:00</hardshipapplicationdate>
+    <description>Team Recommendation</description>
+    <date>2011-02-11T00:00:00</date>
+    <recommendation>Deny</recommendation>
+    <recommendedsettlement>0.00</recommendedsettlement>
+  </ROW>
+  <ROW>
+    <complaintid>MADC0640</complaintid>
+    <casenumber>10-04859</casenumber>
+    <name> Nancy Dver Cohen</name>
+    <hardshipapplicationdate>2011-01-18T00:00:00</hardshipapplicationdate>
+    <description>Team Recommendation</description>
+    <date>2011-02-18T00:00:00</date>
+    <recommendation>Deny</recommendation>
+    <recommendedsettlement>0.00</recommendedsettlement>
+  </ROW>
+  <ROW>
+    <complaintid>MADC0626</complaintid>
+    <casenumber>10-05154</casenumber>
+    <name> Steven C. Schupak</name>
+    <hardshipapplicationdate>2010-12-28T00:00:00</hardshipapplicationdate>
+    <description>Hardship Committee Recommendation</description>
+    <date>2011-02-18T00:00:00</date>
+    <recommendation>Deny</recommendation>
+    <recommendedsettlement>0.00</recommendedsettlement>
+  </ROW>
+  <ROW>
+    <complaintid>MADC0537</complaintid>
+    <casenumber>10-05151</casenumber>
+    <name>Sophia Palmer</name>
+    <hardshipapplicationdate>2010-12-28T00:00:00</hardshipapplicationdate>
+    <description>Team Recommendation</description>
+    <date>2011-02-28T00:00:00</date>
+    <recommendation>Deny</recommendation>
+    <recommendedsettlement>0.00</recommendedsettlement>
+  </ROW>
+  <ROW>
+    <complaintid>MADC0537</complaintid>
+    <casenumber>10-05151</casenumber>
+    <name> Oscar Palmer</name>
+    <hardshipapplicationdate>2010-12-28T00:00:00</hardshipapplicationdate>
+    <description>Team Recommendation</description>
+    <date>2011-02-28T00:00:00</date>
+    <recommendation>Deny</recommendation>
+    <recommendedsettlement>0.00</recommendedsettlement>
+  </ROW>
+  <ROW>
+    <complaintid>MADC0537</complaintid>
+    <casenumber>10-05151</casenumber>
+    <name> Megan Burich</name>
+    <hardshipapplicationdate>2010-12-20T00:00:00</hardshipapplicationdate>
+    <description>Team Recommendation</description>
+    <date>2011-02-28T00:00:00</date>
+    <recommendation>Deny</recommendation>
+    <recommendedsettlement>0.00</recommendedsettlement>
+  </ROW>
+  <ROW>
+    <complaintid>MADC0537</complaintid>
+    <casenumber>10-05151</casenumber>
+    <name> Heidi Holmers</name>
+    <hardshipapplicationdate>2010-12-28T00:00:00</hardshipapplicationdate>
+    <description>Team Recommendation</description>
+    <date>2011-02-28T00:00:00</date>
+    <recommendation>Deny</recommendation>
+    <recommendedsettlement>0.00</recommendedsettlement>
+  </ROW>
+  <ROW>
+    <complaintid>MADC0537</complaintid>
+    <casenumber>10-05151</casenumber>
+    <name> Callie A. Ostenson-Murray</name>
+    <hardshipapplicationdate>2010-12-20T00:00:00</hardshipapplicationdate>
+    <description>Team Recommendation</description>
+    <date>2011-02-28T00:00:00</date>
+    <recommendation>Deny</recommendation>
+    <recommendedsettlement>0.00</recommendedsettlement>
+  </ROW>
+  <ROW>
+    <complaintid>MADC0537</complaintid>
+    <casenumber>10-05151</casenumber>
+    <name> Kelly Burich</name>
+    <hardshipapplicationdate>2010-12-20T00:00:00</hardshipapplicationdate>
+    <description>Team Recommendation</description>
+    <date>2011-02-28T00:00:00</date>
+    <recommendation>Deny</recommendation>
+    <recommendedsettlement>0.00</recommendedsettlement>
+  </ROW>
+  <ROW>
+    <complaintid>MADC0537</complaintid>
+    <casenumber>10-05151</casenumber>
+    <name> Ryan P. Murray</name>
+    <hardshipapplicationdate>2010-12-20T00:00:00</hardshipapplicationdate>
+    <description>Team Recommendation</description>
+    <date>2011-02-28T00:00:00</date>
+    <recommendation>Deny</recommendation>
+    <recommendedsettlement>0.00</recommendedsettlement>
+  </ROW>
+  <ROW>
+    <complaintid>MADC0483</complaintid>
+    <casenumber>10-05133</casenumber>
+    <name> Pamela K. Marxen</name>
+    <hardshipapplicationdate>2010-12-20T00:00:00</hardshipapplicationdate>
+    <description>Team Recommendation</description>
+    <date>2011-02-18T00:00:00</date>
+    <recommendation>Deny</recommendation>
+    <recommendedsettlement>0.00</recommendedsettlement>
+  </ROW>
+  <ROW>
+    <complaintid>MADC0625</complaintid>
+    <casenumber>10-04680</casenumber>
+    <name> Robin Tzannes</name>
+    <hardshipapplicationdate>2011-01-03T00:00:00</hardshipapplicationdate>
+    <description>Team Recommendation</description>
+    <date>2011-02-21T00:00:00</date>
+    <recommendation>Deny</recommendation>
+    <recommendedsettlement>0.00</recommendedsettlement>
+  </ROW>
+  <ROW>
+    <complaintid>MADC0625</complaintid>
+    <casenumber>10-04680</casenumber>
+    <name> Peter Tzannes</name>
+    <hardshipapplicationdate>2011-01-05T00:00:00</hardshipapplicationdate>
+    <description>Team Recommendation</description>
+    <date>2011-02-21T00:00:00</date>
+    <recommendation>Deny</recommendation>
+    <recommendedsettlement>0.00</recommendedsettlement>
+  </ROW>
+  <ROW>
+    <complaintid>MADC0625</complaintid>
+    <casenumber>10-04680</casenumber>
+    <name>Jessica Decker</name>
+    <hardshipapplicationdate>2011-01-05T00:00:00</hardshipapplicationdate>
+    <description>Team Recommendation</description>
+    <date>2011-02-21T00:00:00</date>
+    <recommendation>Deny</recommendation>
+    <recommendedsettlement>0.00</recommendedsettlement>
+  </ROW>
+  <ROW>
+    <complaintid>MADC0625</complaintid>
+    <casenumber>10-04680</casenumber>
+    <name> Mitchel Chalek</name>
+    <hardshipapplicationdate>2011-01-05T00:00:00</hardshipapplicationdate>
+    <description>Team Recommendation</description>
+    <date>2011-02-21T00:00:00</date>
+    <recommendation>Deny</recommendation>
+    <recommendedsettlement>0.00</recommendedsettlement>
+  </ROW>
+  <ROW>
+    <complaintid>MADC0625</complaintid>
+    <casenumber>10-04680</casenumber>
+    <name> Isabel Chalek</name>
+    <hardshipapplicationdate>2011-01-05T00:00:00</hardshipapplicationdate>
+    <description>Team Recommendation</description>
+    <date>2011-02-21T00:00:00</date>
+    <recommendation>Deny</recommendation>
+    <recommendedsettlement>0.00</recommendedsettlement>
+  </ROW>
+  <ROW>
+    <complaintid>MADC0625</complaintid>
+    <casenumber>10-04680</casenumber>
+    <name> David Chalek</name>
+    <hardshipapplicationdate>2011-01-05T00:00:00</hardshipapplicationdate>
+    <description>Team Recommendation</description>
+    <date>2011-02-21T00:00:00</date>
+    <recommendation>Deny</recommendation>
+    <recommendedsettlement>0.00</recommendedsettlement>
+  </ROW>
+  <ROW>
+    <complaintid>MADC0625</complaintid>
+    <casenumber>10-04680</casenumber>
+    <name> Richard M. Chalek</name>
+    <hardshipapplicationdate>2010-12-20T00:00:00</hardshipapplicationdate>
+    <description>Team Recommendation</description>
+    <date>2011-02-21T00:00:00</date>
+    <recommendation>Deny</recommendation>
+    <recommendedsettlement>0.00</recommendedsettlement>
+  </ROW>
+  <ROW>
+    <complaintid>MADC0625</complaintid>
+    <casenumber>10-04680</casenumber>
+    <name> Frances Reiss</name>
+    <hardshipapplicationdate>2010-12-20T00:00:00</hardshipapplicationdate>
+    <description>Team Recommendation</description>
+    <date>2011-02-21T00:00:00</date>
+    <recommendation>Deny</recommendation>
+    <recommendedsettlement>0.00</recommendedsettlement>
+  </ROW>
+  <ROW>
+    <complaintid>MADC0625</complaintid>
+    <casenumber>10-04680</casenumber>
+    <name> Morton J. Chalek</name>
+    <hardshipapplicationdate>2010-12-28T00:00:00</hardshipapplicationdate>
+    <description>Team Recommendation</description>
+    <date>2011-02-21T00:00:00</date>
+    <recommendation>Deny</recommendation>
+    <recommendedsettlement>0.00</recommendedsettlement>
+  </ROW>
+</ROWSET>
+
+<!--
+FMDEBUG
+USE BLMIS
+select d.complaintid, c.casenumber, d.name, d.hardshipapplicationdate, 
+hrc.description, hr.date, hrec.recommendation, recommendedsettlement  
+from defendant d join complaint c on c.id = d.complaintid 
+join hardshipreview hr on hr.defendantid = d.id 
+join hardshipreviewcategory hrc on hrc.id = hr.hardshipreview 
+join hardshiprecommendation hrec on hrec.id = hr.recommendation 
+   where 
+      d.hardshipapplicationdate is not null and hr.id = (select max(shr.id) 
+      from hardshipreview shr where shr.defendantid = d.id)
+
+for  xml PATH('ROW'), ROOT('ROWSET')      
+-->
