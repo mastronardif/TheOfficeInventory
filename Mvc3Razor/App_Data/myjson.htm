@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>img{ height: 100px; float: left; }</style>
+  <style>
+  div:hover { background:cyan;}
+  #json:hover {background:blue;}
+  .else:hover {background:green;}
+  
+  p { color:red; margin:5px; cursor:pointer; }
+  p:hover { background:yellow; }
+  </style>
+  <script src="http://code.jquery.com/jquery-latest.js"></script>
+</head>
+<body>
+
+
+  <p>First Paragraph</p>
+  
+  <div id="json" style="hover:background:yellow;">
+  Get JSON.
+</div>
+
+  <div class="else" style="hover:background:yellow;">
+  Click were are of the green class
+</div>
+
+
+<div id="other">
+  Trigger the handler
+</div>
+
+<div id="birds">
+  Get Birds from flickr
+</div>
+
+  <p>Second Paragraph</p>
+  <p>Yet one more Paragraph</p>
+  
+  <div id="images"> </div>
+<script>
+
+
+
+
+
+$("#target").click(function() {
+  //alert("Handler for .click() called.");
+  //var url='https://zn0lvkpdhdxb70l2ub4:iy59bj7rh0z6uurshn5e7i41lb3fiwuh@77.92.68.105:31415/justonedb/database/n10lvkpdhdxei0l2uja/session';
+  //var url='https://zn0lvkpdhdxb70l2ub4:iy59bj7rh0z6uurshn5e7i41lb3fiwuh@77.92.68.105:31415/justonedb/database/n10lvkpdhdxei0l2uja';
+  var url='https://zn0lvkpdhdxb70l2ub4:iy59bj7rh0z6uurshn5e7i41lb3fiwuh@77.92.68.105:31415/justonedb/database/n10lvkpdhdxei0l2uja';
+  //alert(url);
+  
+ $.ajax({
+     url: url,
+     type: 'GET',
+    
+     success: function() { console.log('PUT completed'); }
+ });
+  
+  
+});
+
+$("#other").click(function() {
+  //$("#target").click();
+  alert($(this).text());
+});
+
+    $("p").click(function () {
+      //$(this).slideUp();
+	  
+	  	alert($(this).text());
+		
+		$.post(url, { "func": "getNameAndTime" },
+ function(data){
+   console.log(data.name); // John
+   console.log(data.time); //  2pm
+ }, "json");
+		
+
+    });
+</script>
+
+
+<script>
+$("#birds").click(function() {
+  
+  $.getJSON("http://api.flickr.com/services/feeds/photos_public.gne?jsoncallback=?",
+  {
+    tags: "bird",
+    tagmode: "any",
+    format: "json"
+  },
+  function(data) {
+    $.each(data.items, function(i,item){
+      $("<img/>").attr("src", item.media.m).appendTo("#images");
+      if ( i == 3 ) return false;
+    });
+  });
+  
+}); 
+</script>
+
+<script>
+$("#json").click(function() {
+  
+  
+  jQuery.getJSON("https://zn0lvkpdhdxb70l2ub4:iy59bj7rh0z6uurshn5e7i41lb3fiwuh@77.92.68.105:31415/justonedb/database/n10lvkpdhdxei0l2uja=?", 
+function(data) {
+var sss="";
+ //$.each(data.items, function(i,item){
+      //sss += item;
+   //   if ( i == 3 ) return false;
+    //});
+    alert("Symbol: "+data);
+});
+
+  /**********
+  $.getJSON("http://api.flickr.com/services/feeds/photos_public.gne?jsoncallback=?",
+  //$.getJSON("https://zn0lvkpdhdxb70l2ub4:iy59bj7rh0z6uurshn5e7i41lb3fiwuh@77.92.68.105:31415/justonedb/database/n10lvkpdhdxei0l2uja/session",
+  {
+    tags: "cow",
+    tagmode: "any",
+    format: "json"
+  },
+  function(data) {
+    $.each(data.items, function(i,item){
+      $("<img/>").attr("src", item.media.m).appendTo("#images");
+      if ( i == 3 ) return false;
+    });
+  });
+  **************/
+}); 
+</script>
+
+
+
+<script>
+$.getJSON("http://api.flickr.com/services/feeds/photos_public.gne?jsoncallback=?",
+  {
+    tags: "cockapoo",
+    tagmode: "any",
+    format: "json"
+  },
+  function(data) {
+    $.each(data.items, function(i,item){
+      $("<img/>").attr("src", item.media.m).appendTo("#images");
+      if ( i == 3 ) return false;
+    });
+  });
+</script>
+
+</body>
+</html>

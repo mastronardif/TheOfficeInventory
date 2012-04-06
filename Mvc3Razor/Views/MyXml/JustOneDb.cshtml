@@ -1,0 +1,63 @@
+﻿@{
+    ViewBag.Title = "MyXml";
+}
+
+
+@Mvc3Razor.MyHelpers.MyHelpersClass1.ListFiles("*.xml")
+@*
+
+@Mvc3Razor.MyHelpers.MyHelpersClass1.ListFiles("*.xml")
+
+@Mvc3Razor.MyHelpers.MyHelpersClass1.Transform00("detail.xml", "myTable.xsl")
+
+@Mvc3Razor.MyHelpers.MyHelpersClass1.Fuck("myjson.htm")
+@Mvc3Razor.MyHelpers.MyHelpersClass1.Fuck("HTMLPage33.htm")
+@Html.ServerSideInclude(this, "/serverside/menus/MainMenu.asp");
+
+@Render Page("http://joeschedule.com/cgi-bin/jmother2.pl?htmlname=test2.html")?
+@RenderPage("~/Path/ToMy/File.html")?
+
+@Mvc3Razor.MyHelpers.MyHelpersClass1.Fuck(@ViewBag.fn)
+
+*@
+
+<h2>My Office</h2>
+xml: <input type="text" name="xml" /> &nbsp;  &nbsp; xsl: <input type="text" name="xsl" /> &nbsp;  &nbsp; <input type=button  id="xml_by_xslt" value="transform" />
+
+ @ViewBag.fn
+
+
+    <input type="button" id="ClickMe" name = "ClickMe" Value="ClickMe" />
+
+    <p>
+    Test justOneDB
+htmlhelp
+    <span style="margin-left: 10px"> 
+
+    @Html.ActionLink("[test JustOneDB]", "JustOneDb", "MyXml");
+   @* 
+   @Html.ActionLink("[edit]", "Index");
+   *@
+
+
+    
+    </span>
+
+    @{ 
+    @:The day is: @DateTime.Now.DayOfWeek. It is a <b>great</b> day!
+}
+    </p>
+
+    <script type="text/javascript">
+
+        $(function () {
+            $('#ClickMe').click(function () {
+                window.open('/Home/Create/', 'CustomerSearch', 'height=' + (window.screen.height - 100) + ',width=200,left=' + (window.screen.width - 250) + ',top=10,status=no,toolbar=no,resizable=yes,scrollbars=yes');
+            });
+
+            $('#xml_by_xslt').click(function () {
+                window.open('/MyXml/Test22/', 'ustomerSearch', 'height=' + (window.screen.height - 100) + ',width=200,left=' + (window.screen.width - 250) + ',top=10,status=no,toolbar=no,resizable=yes,scrollbars=yes');
+            });
+
+        });
+    </script>
