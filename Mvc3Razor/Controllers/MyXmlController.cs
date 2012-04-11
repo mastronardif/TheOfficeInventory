@@ -12,6 +12,7 @@ using System.Net.Security;
 using System.Security.Cryptography.X509Certificates;
 using System.Configuration;
 using Newtonsoft.Json;
+using System.Text;
 
 namespace Mvc3Razor.Controllers
 {
@@ -92,9 +93,22 @@ namespace Mvc3Razor.Controllers
 
                 string json = myJsonString22.ToString();
                 System.Xml.XmlDocument xmlDocument = Newtonsoft.Json.JsonConvert.DeserializeXmlNode(json);
+
                 System.Xml.XmlTextWriter xmlTextWriter = new System.Xml.XmlTextWriter("json.xml", null);
                 xmlTextWriter.Formatting = System.Xml.Formatting.Indented;
-                xmlDocument.Save(xmlTextWriter);
+
+                // fm 4/11/12
+
+                StringBuilder sb = new StringBuilder();
+                XmlWriterSettings settings = new XmlWriterSettings();
+                settings.Indent = true;
+                settings.Encoding = Encoding.UTF8;
+                settings.CloseOutput = false;
+                settings.CheckCharacters = true;
+
+                XmlWriter w = XmlWriter.Create(sb, settings); 
+                //System.Xml.XmlWriter xmlTextWriter22 = new System.Xml.XmlTextWriter(w, null);
+                xmlDocument.Save(w);
 
                 string resutls = (xmlDocument).InnerXml;
 
