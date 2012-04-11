@@ -32,20 +32,24 @@ xml: <input type="text" name="xml" /> &nbsp;  &nbsp; xsl: <input type="text" nam
     <p>
     Test justOneDB
 htmlhelp
-    <span style="margin-left: 10px"> 
-
-    @Html.ActionLink("[test JustOneDB]", "JustOneDb", "MyXml");
+   <span style="margin-left: 10px"> 
+   @Html.ActionLink("[test JustOneDB]", "JustOneDb", "MyXml");
    @* 
    @Html.ActionLink("[edit]", "Index");
-   *@
-
-
-    
-    </span>
-
+   *@     
+   </span>
+   
     @{ 
     @:The day is: @DateTime.Now.DayOfWeek. It is a <b>great</b> day!
 }
+    </p>
+
+    <p>
+    Pinterest 
+   <span style="margin-left: 10px"> 
+   @Html.ActionLink("[pinterest whats popular]", "Pinterest", "MyXml")
+   </span>
+
     </p>
 
     <script type="text/javascript">
