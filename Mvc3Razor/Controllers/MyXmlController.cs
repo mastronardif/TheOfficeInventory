@@ -92,10 +92,11 @@ namespace Mvc3Razor.Controllers
                 myJsonString22.Append("{ \"?xml\": { \"@version\": \"1.0\", \"@standalone\": \"no\" }, \"root\":" + myJsonString + "}");
 
                 string json = myJsonString22.ToString();
+
                 System.Xml.XmlDocument xmlDocument = Newtonsoft.Json.JsonConvert.DeserializeXmlNode(json);
 
-                System.Xml.XmlTextWriter xmlTextWriter = new System.Xml.XmlTextWriter("json.xml", null);
-                xmlTextWriter.Formatting = System.Xml.Formatting.Indented;
+                //System.Xml.XmlTextWriter xmlTextWriter = new System.Xml.XmlTextWriter("json.xml", null);
+                //xmlTextWriter.Formatting = System.Xml.Formatting.Indented;
 
                 // fm 4/11/12
 
