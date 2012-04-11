@@ -133,20 +133,23 @@ namespace Mvc3Razor.Controllers
             HttpWebResponse response = null;
             try
             {
-                if (1 == 21)
+                if (1 == 12)
                 {
 
                     var client = new RestClient();
                     client.BaseUrl = "https://77.92.68.105:31415/justonedb/database/n10lvkpdhdxei0l2uja/";
-                    //client.BaseUrl = "https://api-dev.bugzilla.mozilla.org/1.1/";
-                    client.Authenticator = new HttpBasicAuthenticator("zn0lvkpdhdxb70l2ub4", "iy59bj7rh0z6uurshn5e7i41lb3fiwuh");
-
+                    //client.BaseUrl = "https://zn0lvkpdhdxb70l2ub4:iy59bj7rh0z6uurshn5e7i41lb3fiwuh@77.92.68.105:31415/justonedb/database/n10lvkpdhdxei0l2uja/session";
+                //    client.BaseUrl =  "https://api.pinterest.com/v2/popular/";
+                    //client.Authenticator = new HttpBasicAuthenticator("zn0lvkpdhdxb70l2ub4", "iy59bj7rh0z6uurshn5e7i41lb3fiwuh");
+                    //  request.Headers["Authorization"] = "Basic " + Convert.ToBase64String(Encoding.Default.GetBytes(authInfo));
+                    //string authInfo = @"zn0lvkpdhdxb70l2ub4:iy59bj7rh0z6uurshn5e7i41lb3fiwuh";
+                    //client.AddDefaultHeader("Authorization", "Basic " + Convert.ToBase64String(Encoding.Default.GetBytes(authInfo)));
                     var request22 = new RestRequest();
                     //request22.Resource = "/session";
 
                     RestResponse response22 = client.Execute(request22);
-                    return Content("h f");
-                    //return Content(response22.Content);
+                    //return Content("h f");
+                    return Content(response22.Content);
                 }
 
 
@@ -154,7 +157,7 @@ namespace Mvc3Razor.Controllers
                 // Create the web request 
                 // curl -k -X POST https://zn0lvkpdhdxb70l2ub4:iy59bj7rh0z6uurshn5e7i41lb3fiwuh@77.92.68.105:31415/justonedb/database/n10lvkpdhdxei0l2uja/session  
                 //curl -k -X GET             https://zn0lvkpdhdxb70l2ub4:iy59bj7rh0z6uurshn5e7i41lb3fiwuh@77.92.68.105:31415/justonedb/database/n10lvkpdhdxei0l2uja/session
-                string url = @"https://zn0lvkpdhdxb70l2ub4:iy59bj7rh0z6uurshn5e7i41lb3fiwuh@77.92.68.105:31415/justonedb/database/n10lvkpdhdxei0l2uja/session";
+                string url = @"https:77.92.68.105:31415/justonedb/database/n10lvkpdhdxei0l2uja/session";
                 //                string url = @"https://api.pinterest.com/v2/popular/";
                 // Fm 4/5/12
                 //curl -k -X GET https://zn0lvkpdhdxb70l2ub4:iy59bj7rh0z6uurshn5e7i41lb3fiwuh@77.92.68.105:31415/justonedb/database/n10lvkpdhdxei0l2uja/session
@@ -172,9 +175,16 @@ namespace Mvc3Razor.Controllers
 
                 if (1==1)
                 {
+                    url = @"https://77.92.68.105:31415/justonedb/database/n10lvkpdhdxei0l2uja/session";
+//                    url =  @"https://zn0lvkpdhdxb70l2ub4:iy59bj7rh0z6uurshn5e7i41lb3fiwuh@77.92.68.105:31415/justonedb/database/n10lvkpdhdxei0l2uja/session//9342041334159164/table";
+                // fm works request = (HttpWebRequest)WebRequest.Create("https://77.92.68.105:31415/justonedb/database/n10lvkpdhdxei0l2uja/");
                 request = (HttpWebRequest)WebRequest.Create(url);
 
                 request.Method = "GET";
+
+                string authInfo = @"zn0lvkpdhdxb70l2ub4:iy59bj7rh0z6uurshn5e7i41lb3fiwuh";
+                request.Headers["Authorization"] = "Basic " + Convert.ToBase64String(Encoding.Default.GetBytes(authInfo));
+
 
                 //request.Method = "HEAD";
                 //request.AllowAutoRedirect = true;
@@ -183,7 +193,7 @@ namespace Mvc3Razor.Controllers
 
 
                 // Ignore Certificate validation failures (aka untrusted certificate + certificate chains)
-                //ServicePointManager.ServerCertificateValidationCallback = ((sender, certificate, chain, sslPolicyErrors) => true);
+                ServicePointManager.ServerCertificateValidationCallback = ((sender, certificate, chain, sslPolicyErrors) => true);
 
                 ((HttpWebRequest)request).AllowWriteStreamBuffering = true;
 
