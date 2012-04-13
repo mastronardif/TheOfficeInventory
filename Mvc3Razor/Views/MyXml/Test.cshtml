@@ -33,8 +33,13 @@ xml: <input type="text" name="xml" /> &nbsp;  &nbsp; xsl: <input type="text" nam
     Test justOneDB
 htmlhelp
    <span style="margin-left: 10px"> 
-   @Html.ActionLink("[test JustOneDB]", "JustOneDb", "MyXml");
-   @* 
+   @Html.ActionLink("[test JustOneDB]", "JustOneDb", "MyXml")
+   <br/>
+   @Html.ActionLink("[select * from ]", "JustOneDb/select", "MyXml")
+      @* 
+
+   <br/><br/>
+   @Html.ActionLink("Text","Action","Controller", null, null)
    @Html.ActionLink("[edit]", "Index");
    *@     
    </span>

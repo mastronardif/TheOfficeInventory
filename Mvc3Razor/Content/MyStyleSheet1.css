@@ -1,0 +1,15 @@
+﻿body {
+}
+#Masthead {
+position:relative;
+background:url("http://www.thedigitalbus.com/wp-content/uploads/2011/03/turtle-race.jpg") no-repeat;
+height:94px;
+}
+
+/* index page link within #masthead */
+
+#Masthead a {
+position:absolute;
+width:756px; /*Define the width of the link box*/
+height:94px; /*Define the height of the link box*/
+}

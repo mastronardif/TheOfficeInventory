@@ -89,6 +89,7 @@
     <Content Include="App_Data\myjson.htm" />
     <Content Include="App_Data\office2.htm" />
     <Content Include="App_Data\plainjane.htm" />
+    <Content Include="Content\MyStyleSheet1.css" />
     <Content Include="Global.asax" />
     <Content Include="js\jquery-1.4.4.min.js" />
     <Content Include="js\jquery-ui-1.8.11.custom.min.js" />
