@@ -129,6 +129,100 @@ namespace Mvc3Razor.Controllers
         public ActionResult JustOneDb()
         {
             ViewBag.fuck = "<h1>Test JustONeDb!</h1>";
+            ViewBag.fn = "*.xml";
+            ///////////
+            HttpWebRequest request = null;
+            HttpWebResponse response = null;
+            try
+            {
+
+                String Xml;
+                // Create the web request 
+                // curl -k -X POST https://zn0lvkpdhdxb70l2ub4:iy59bj7rh0z6uurshn5e7i41lb3fiwuh@77.92.68.105:31415/justonedb/database/n10lvkpdhdxei0l2uja/session  
+                //curl -k -X GET             https://zn0lvkpdhdxb70l2ub4:iy59bj7rh0z6uurshn5e7i41lb3fiwuh@77.92.68.105:31415/justonedb/database/n10lvkpdhdxei0l2uja/session
+                string url = @"https:77.92.68.105:31415/justonedb/database/n10lvkpdhdxei0l2uja/session";
+                //                string url = @"https://api.pinterest.com/v2/popular/";
+                // Fm 4/5/12
+                //curl -k -X GET https://zn0lvkpdhdxb70l2ub4:iy59bj7rh0z6uurshn5e7i41lb3fiwuh@77.92.68.105:31415/justonedb/database/n10lvkpdhdxei0l2uja/session
+                //string url = @"https://zn0lvkpdhdxb70l2ub4:iy59bj7rh0z6uurshn5e7i41lb3fiwuh@77.92.68.105:31415/justonedb/database/n10lvkpdhdxei0l2uja/session";
+                //string url = @"https://77.92.68.105:31415/justonedb/database/n10lvkpdhdxei0l2uja/session";
+
+
+                if (1 == 1)
+                {
+                    url = @"https://77.92.68.105:31415/justonedb/database/n10lvkpdhdxei0l2uja/session";
+                    //                    url =  @"https://zn0lvkpdhdxb70l2ub4:iy59bj7rh0z6uurshn5e7i41lb3fiwuh@77.92.68.105:31415/justonedb/database/n10lvkpdhdxei0l2uja/session//9342041334159164/table";
+                    // fm works request = (HttpWebRequest)WebRequest.Create("https://77.92.68.105:31415/justonedb/database/n10lvkpdhdxei0l2uja/");
+                    request = (HttpWebRequest)WebRequest.Create(url);
+
+                    request.Method = "GET";
+
+                    string authInfo = @"zn0lvkpdhdxb70l2ub4:iy59bj7rh0z6uurshn5e7i41lb3fiwuh";
+                    request.Headers["Authorization"] = "Basic " + Convert.ToBase64String(Encoding.Default.GetBytes(authInfo));
+
+
+                    //request.Method = "HEAD";
+                    //request.AllowAutoRedirect = true;
+                    //request.Credentials = CredentialCache.DefaultCredentials;
+                    //request.Credentials = new NetworkCredential("zn0lvkpdhdxb70l2ub4", "zn0lvkpdhdxb70l2ub4");
+
+
+                    // Ignore Certificate validation failures (aka untrusted certificate + certificate chains)
+                    ServicePointManager.ServerCertificateValidationCallback = ((sender, certificate, chain, sslPolicyErrors) => true);
+
+                    ((HttpWebRequest)request).AllowWriteStreamBuffering = true;
+
+                    // Get response 
+                    using (response = (HttpWebResponse)request.GetResponse() as HttpWebResponse)
+                    {
+                        // Get the response stream 
+                        StreamReader reader = new StreamReader(response.GetResponseStream());
+                        Xml = reader.ReadToEnd();
+
+                        Object obj = JsonConvert.DeserializeObject(Xml);
+
+                        var jsonSerializer = new JsonSerializer();
+                        dynamic stuff = jsonSerializer.Deserialize(new JsonTextReader(new StringReader(Xml)));
+
+                        var name = stuff.session;
+                        string str = stuff.message;
+
+                        string strBuff = String.Empty;
+                        StringBuilder sb22 = new StringBuilder();
+                        foreach (var c in stuff)
+                        { sb22.AppendFormat("{0}\n", c); }
+                        //{ strBuff += (c); strBuff += "\n"; }
+
+                        //MyJustOneDB db;
+                        string[] array = MyJustOneDB.listTables();
+                        string result = "<br/><br/>\n"+ string.Join("<br/>\n", array);
+                        /*****
+                        for (int i = 0; i < str.Length; i++)
+                            Console.Write(str[i] + " ");  
+                                                
+                         * *********/
+
+                        Object obj22 = new Object();
+                        JsonConvert.PopulateObject(Xml, obj22);
+                        return Content(sb22.ToString()+result);
+                    //return Content(Xml);
+
+                    }
+                }
+            }
+            catch (Exception ee)
+            {
+                return Content(ee.ToString());
+
+            }
+            //////////////
+
+            //return View();
+        }
+
+        public ActionResult JustOneDbOldShit()
+        {
+            ViewBag.fuck = "<h1>Test JustONeDb!</h1>";
             ///////////
             HttpWebRequest request = null;
             HttpWebResponse response = null;
@@ -204,6 +298,8 @@ namespace Mvc3Razor.Controllers
                     // Get the response stream 
                     StreamReader reader = new StreamReader(response.GetResponseStream());
                     Xml = reader.ReadToEnd();
+
+                    Object obj = JsonConvert.DeserializeObject(Xml);
                 }
                 return Content(Xml);
                 }
