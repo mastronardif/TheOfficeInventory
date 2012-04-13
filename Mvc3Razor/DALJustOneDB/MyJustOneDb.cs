@@ -116,7 +116,6 @@ JUSTONEDB_SUPPORT_ID 	7bccf301
 
     static void setTheSessions(string Xml)
     {
-  //      StringBuilder sb22 = new StringBuilder();
         var jsonSerializer = new JsonSerializer();
         dynamic stuff = jsonSerializer.Deserialize(new JsonTextReader(new StringReader(Xml)));
 
@@ -145,77 +144,37 @@ JUSTONEDB_SUPPORT_ID 	7bccf301
                 TheSessions.Add((string)c);
             }
         }
-        else //            if (1 == 2) //(stuff.session)
+        else
         {
             TheSessions.Add((string)stuff.session);
         }
-
     }
 
     static List<string> getSessions()
     {
-        //create sessions curl -k -X POST https://zn0lvkpdhdxb70l2ub4:iy59bj7rh0z6uurshn5e7i41lb3fiwuh@77.92.68.105:31415/justonedb/database/n10lvkpdhdxei0l2uja/session  
-        string results = string.Empty;
-        string strBuff = String.Empty;
-        StringBuilder sb22 = new StringBuilder();
-
         try
         {
             TheSessions.Clear();
-            //HttpWebRequest request = null;
-            //HttpWebResponse response = null;
 
-            string Xml;
-            // Create the web request 
-            // curl -k -X POST https://zn0lvkpdhdxb70l2ub4:iy59bj7rh0z6uurshn5e7i41lb3fiwuh@77.92.68.105:31415/justonedb/database/n10lvkpdhdxei0l2uja/session  
-            //curl -k -X GET             https://zn0lvkpdhdxb70l2ub4:iy59bj7rh0z6uurshn5e7i41lb3fiwuh@77.92.68.105:31415/justonedb/database/n10lvkpdhdxei0l2uja/session
-            //string url = @"https://77.92.68.105:31415/justonedb/database/n10lvkpdhdxei0l2uja/session";
+            string json;
+            json = RestCall("GET", JUSTONEDB_REST_DB+"/session");
 
-            // fm 4/12/12 8:03
-            // RestCall("POST session  ")
-            //Xml = RestCall("GET", "session");
-            Xml = RestCall("GET", JUSTONEDB_REST_DB+"/session");
-            // fm 4/12/12 8:03
+            setTheSessions(json);
 
-/******************
-            request = (HttpWebRequest)WebRequest.Create(url);
-                    request.Method = "GET";
-
-                    string authInfo = @"zn0lvkpdhdxb70l2ub4:iy59bj7rh0z6uurshn5e7i41lb3fiwuh";
-                    request.Headers["Authorization"] = "Basic " + Convert.ToBase64String(Encoding.Default.GetBytes(authInfo));
-
-                    // Ignore Certificate validation failures (aka untrusted certificate + certificate chains)
-                    ServicePointManager.ServerCertificateValidationCallback = ((sender, certificate, chain, sslPolicyErrors) => true);
-
-                    ((HttpWebRequest)request).AllowWriteStreamBuffering = true;
-                    // Get response 
-                    using (response = (HttpWebResponse)request.GetResponse() as HttpWebResponse)
-                    {
-                        // Get the response stream 
-                        StreamReader reader = new StreamReader(response.GetResponseStream());
-                        Xml = reader.ReadToEnd();
-************/
-                        setTheSessions(Xml);
-
-                        // If no sessions make one.
-                        if (TheSessions.Count == 0)
-                        {
-                            // RestCall("POST session  ")
-                            string str2222 = RestCall("POST", JUSTONEDB_REST_DB + "/session");
-                            setTheSessions(str2222);
-                            //curl -k -X POST https://zn0lvkpdhdxb70l2ub4:iy59bj7rh0z6uurshn5e7i41lb3fiwuh@77.92.68.105:31415/justonedb/database/n10lvkpdhdxei0l2uja/session  
-                            //TheSessions.Add((string)c);
-                        }
-//                    }
+            // If no sessions make one.
+            if (TheSessions.Count == 0)
+            {
+                // RestCall("POST session  ")
+                json = RestCall("POST", JUSTONEDB_REST_DB + "/session");
+                setTheSessions(json);
+            }
         }
         catch (Exception ee)
         {
             List<string> myVar = new List<string>(new string[] { "Error", ee.ToString() });
             return myVar;
-            
         }
 
         return (TheSessions);
-    
     }
 }
