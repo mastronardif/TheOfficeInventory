@@ -26,6 +26,51 @@ JUSTONEDB_SUPPORT_ID 	7bccf301
     //static List<string> TheSessions;
     static List<string> TheSessions = new List<string>();
 
+    static public string JsonToList(string json)
+    {
+        string results = string.Empty;
+        var jsonSerializer = new JsonSerializer();
+        var stuff = jsonSerializer.Deserialize(new JsonTextReader(new StringReader(json)));
+
+        System.Text.StringBuilder myJsonString22 = new System.Text.StringBuilder();
+        myJsonString22.Append("{ \"?xml\": { \"@version\": \"1.0\", \"@standalone\": \"no\" }, \"root\":" + json + "}");
+        System.Xml.XmlDocument xmlDocument = Newtonsoft.Json.JsonConvert.DeserializeXmlNode(myJsonString22.ToString());
+
+        results = xmlDocument.InnerXml;
+            /******
+        foreach (var c in stuff.tables)
+        {
+            //            sb22.AppendFormat("{0}\n", c);
+            Tables.Add((string)c);
+        }
+            *******/
+        return results;
+    }
+
+
+    static public string[] Select(string sql)
+    {
+        string jsonSql = "{\"select\":[{\"table\":\"offices\",\"column\":\"Emp\"}]}";
+
+        TheSessions = getSessions();
+        string req = TheSessions[0] + "/query";
+        string json = RestCallWithJson("POST", req, jsonSql);
+
+        var jsonSerializer = new JsonSerializer();
+        dynamic stuff = jsonSerializer.Deserialize(new JsonTextReader(new StringReader(json)));
+
+        string qryId = stuff.query;
+
+        // Fetch rows from query cursor
+        jsonSql = "{\"fetch\":\"0\"}";
+        json = RestCallWithJson("PUT", qryId, jsonSql);
+
+        // list rows
+        string str = JsonToList(json);
+        return new string[] {str}; 
+        //return TheSessions.ToArray();
+
+    }
 
     static public string [] listTables() 
     {
@@ -70,6 +115,59 @@ JUSTONEDB_SUPPORT_ID 	7bccf301
 
         //return new string[] { "one", "two", "three" }; 
     }
+
+    static string RestCallWithJson(string verb, string req, string postData)
+    {
+        string results = string.Empty;
+        string strBuff = String.Empty;
+        StringBuilder sb22 = new StringBuilder();
+
+        try
+        {
+            HttpWebRequest request = null;
+            HttpWebResponse response = null;
+
+            string url = REST_BASE + "/" + req;
+
+            request = (HttpWebRequest)WebRequest.Create(url);
+
+            request.ContentType = "application/json";
+
+            request.Method = verb;
+
+            // authInfo
+            request.Headers["Authorization"] = "Basic " + Convert.ToBase64String(Encoding.Default.GetBytes(authInfo));
+
+            // Ignore Certificate validation failures (aka untrusted certificate + certificate chains)
+            ServicePointManager.ServerCertificateValidationCallback = ((sender, certificate, chain, sslPolicyErrors) => true);
+
+            ((HttpWebRequest)request).AllowWriteStreamBuffering = true;
+
+            StreamWriter requestWriter;
+            using (requestWriter = new StreamWriter(request.GetRequestStream()))
+            {
+                requestWriter.Write(postData);
+            }
+
+            // Get response 
+            using (response = (HttpWebResponse)request.GetResponse() as HttpWebResponse)
+            {
+                // Get the response stream 
+                StreamReader reader = new StreamReader(response.GetResponseStream());
+                results = reader.ReadToEnd();
+            }
+        }
+        catch (Exception ee)
+        {
+            //return (new string[] { "Error", ee.ToString() });
+            //List<string> myVar = new List<string>(new string[] { "Error", ee.ToString() });
+            return ee.ToString();
+        }
+
+        return results;
+    }
+
+
 
     static string RestCall(string verb, string req)
     {

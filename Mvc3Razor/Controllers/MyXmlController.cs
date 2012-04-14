@@ -130,6 +130,19 @@ namespace Mvc3Razor.Controllers
         {
             ViewBag.fuck = "<h1>Test JustONeDb!</h1>";
             ViewBag.fn = "*.xml";
+            {
+                if (Request.Url.ToString().Contains("/select"))
+                //if (((string)(Request.Url)).Contains("/select"))
+                { 
+                    // test select * from ____
+                    string[] array = MyJustOneDB.Select("");
+                    string result = array[0];
+                    //string result = "<br/><br/>\n" + string.Join("<br/>\n", array);
+                    Response.ContentType = "text/xml";
+                    return Content(result);
+                
+                }
+            }
             ///////////
             HttpWebRequest request = null;
             HttpWebResponse response = null;
@@ -195,7 +208,7 @@ namespace Mvc3Razor.Controllers
 
                         //MyJustOneDB db;
                         string[] array = MyJustOneDB.listTables();
-                        string result = "<br/><br/>\n"+ string.Join("<br/>\n", array);
+                        string result = "<br/><br/>\n" + string.Join("<br/>\n", array);
                         /*****
                         for (int i = 0; i < str.Length; i++)
                             Console.Write(str[i] + " ");  
@@ -204,8 +217,8 @@ namespace Mvc3Razor.Controllers
 
                         Object obj22 = new Object();
                         JsonConvert.PopulateObject(Xml, obj22);
-                        return Content(sb22.ToString()+result);
-                    //return Content(Xml);
+                        return Content(sb22.ToString() + result);
+                        //return Content(Xml);
 
                     }
                 }
