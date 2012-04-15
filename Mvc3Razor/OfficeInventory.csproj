@@ -81,6 +81,7 @@
     </Compile>
     <Compile Include="Models\UserModel.cs" />
     <Compile Include="MyHelpers\MyHelpersClass1.cs" />
+    <Compile Include="MyXML\MyXML.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

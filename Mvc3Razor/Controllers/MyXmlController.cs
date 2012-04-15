@@ -13,6 +13,7 @@ using System.Security.Cryptography.X509Certificates;
 using System.Configuration;
 using Newtonsoft.Json;
 using System.Text;
+using Mvc3Razor.MyHelpers;
 
 namespace Mvc3Razor.Controllers
 {
@@ -138,7 +139,11 @@ namespace Mvc3Razor.Controllers
                     string[] array = MyJustOneDB.Select("");
                     string result = array[0];
                     //string result = "<br/><br/>\n" + string.Join("<br/>\n", array);
-                    Response.ContentType = "text/xml";
+
+                    // transform from xml string buffer.
+                    result = MyHelpersClass1.Transform00(result, "myTable.xsl").ToString();
+
+                    //Response.ContentType = "text/xml";
                     return Content(result);
                 
                 }

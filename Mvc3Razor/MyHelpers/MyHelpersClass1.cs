@@ -63,8 +63,23 @@ namespace Mvc3Razor.MyHelpers
 
         public static IHtmlString Transform00(string fnxml, string fnxsl)
         {
-            string sXmlPath = HttpContext.Current.Server.MapPath("~/App_Data/" + fnxml); ;
-            string sXslPath = HttpContext.Current.Server.MapPath("~/App_Data/" + fnxsl); ;
+            string sXslPath = HttpContext.Current.Server.MapPath("~/App_Data/" + fnxsl);
+
+            // FM 4/14/12
+            // if string buffs cheesy for now. xslt can be string buf too.  Do that later.
+            { 
+                bool contains = fnxml.IndexOf(".xml", StringComparison.OrdinalIgnoreCase) >= 0;
+                if (!contains && fnxml.Length > 100)
+                {
+                    return new HtmlString(MyXML.MyXML.Transform(fnxml, sXslPath)); 
+                }
+                //if (fnxml.Contains(".xml",))
+            
+            }
+            // FM 4/14/12
+
+            string sXmlPath = HttpContext.Current.Server.MapPath("~/App_Data/" + fnxml);
+            
             return Transform(sXmlPath, sXslPath);
         }
         public static IHtmlString Transform(string sXmlPath, string sXslPath)
