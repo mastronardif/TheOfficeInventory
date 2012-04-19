@@ -132,16 +132,28 @@ namespace Mvc3Razor.Controllers
             ViewBag.fuck = "<h1>Test JustONeDb!</h1>";
             ViewBag.fn = "*.xml";
             {
-                if (Request.Url.ToString().Contains("/select"))
+                //if (Request.Url.ToString().Contains("/select/Json"))
+                if (Request.Url.ToString().IndexOf("/select_Json", StringComparison.OrdinalIgnoreCase) >= 0)
+                { 
+                    string[] array = MyJustOneDB.Select22("");
+                    string result = array[0];
+                    result = result.Replace("\n", "<br/>");
+                    return Content(result);
+                }
+
+                if (Request.Url.ToString().Contains("/select"))                    
                 //if (((string)(Request.Url)).Contains("/select"))
                 { 
                     // test select * from ____
                     string[] array = MyJustOneDB.Select("");
                     string result = array[0];
+
                     //string result = "<br/><br/>\n" + string.Join("<br/>\n", array);
 
                     // transform from xml string buffer.
                     result = MyHelpersClass1.Transform00(result, "myTable.xsl").ToString();
+
+
 
                     //Response.ContentType = "text/xml";
                     return Content(result);
@@ -356,6 +368,7 @@ namespace Mvc3Razor.Controllers
             ViewBag.fn = "office2.htm";
             return View();
         }
+
 
 
         public ActionResult Index()

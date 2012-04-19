@@ -81,7 +81,9 @@
     </Compile>
     <Compile Include="Models\UserModel.cs" />
     <Compile Include="MyHelpers\MyHelpersClass1.cs" />
-    <Compile Include="MyXML\MyXML.cs" />
+    <Compile Include="MyUtility\MyJson.cs" />
+    <Compile Include="MyUtility\MyXML.cs" />
+    <Compile Include="MyUtility\TestData.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -157,9 +159,6 @@
     <Folder Include="App_Data\App_LocalResources\" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Views\MyXml\index.cshtml" />
-  </ItemGroup>
-  <ItemGroup>
     <Content Include="Views\MyXml\ViewPage1.cshtml" />
   </ItemGroup>
   <ItemGroup>
@@ -182,6 +181,12 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Views\MyXml\Copy of index.cshtml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Views\MyXml\index.cshtml" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" />

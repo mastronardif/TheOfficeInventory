@@ -5,6 +5,7 @@ using System.IO;
 using Newtonsoft.Json;
 using System.Collections.Generic;
 using Newtonsoft.Json.Linq;
+using Mvc3Razor.MyJSON;
 
 //http://www.justonedb.com/wp-content/uploads/2011/09/JustOneDB-REST-Interface-Sep-2011-2.pdf
 public static class MyJustOneDB
@@ -47,6 +48,11 @@ JUSTONEDB_SUPPORT_ID 	7bccf301
         return results;
     }
 
+    static public string[] Select22(string sql)
+    {
+        string str = MyJSON.JsonToObj(Mvc3Razor.MyUtility.TestData.mmm);
+        return new string[] { str }; 
+    }
 
     static public string[] Select(string sql)
     {
@@ -66,7 +72,11 @@ JUSTONEDB_SUPPORT_ID 	7bccf301
         json = RestCallWithJson("PUT", qryId, jsonSql);
 
         // list rows
-        string str = JsonToList(json);
+        //string str = JsonToList(json);
+        //string str = MyJSON.JsonToObj(json);
+         json = Mvc3Razor.MyUtility.TestData.mmm;
+        string str = MyJSON.JsonToXML(json);
+
         return new string[] {str}; 
         //return TheSessions.ToArray();
 
