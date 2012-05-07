@@ -88,7 +88,9 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="App_Data\000.htm" />
+    <Content Include="App_Data\Abby.xml" />
     <Content Include="App_Data\detail.xml" />
+    <Content Include="App_Data\horsedetails.xsl" />
     <Content Include="App_Data\HTMLPage33.htm" />
     <Content Include="App_Data\myjson.htm" />
     <Content Include="App_Data\myTable.xsl" />

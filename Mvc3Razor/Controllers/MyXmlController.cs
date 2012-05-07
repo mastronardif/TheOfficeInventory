@@ -354,10 +354,23 @@ namespace Mvc3Razor.Controllers
             return View("dummy");
         }
 
+        [HttpPost]
+        public ActionResult Test(FormCollection fc)
+        {
+            //ViewBag.fuck = "<h1>hey ya big dummy!</h1>";
+            ViewBag.fnXml = fc["xmlname"];
+            ViewBag.fnXsl = fc["xslname"];
+            return View("dummy");
+
+            //ViewBag.fuck = "<h1>Test shit here!</h1>";
+            //ViewBag.fn = "*.xml";
+            //return View();
+        }
+
 
         public ActionResult Test()
         {
-            ViewBag.fuck = "<h1>Test shit here!</h1>";
+             ViewBag.fuck = "<h1>Test shit here!</h1>";
             ViewBag.fn = "*.xml";
             return View();
         }
@@ -368,7 +381,6 @@ namespace Mvc3Razor.Controllers
             ViewBag.fn = "office2.htm";
             return View();
         }
-
 
 
         public ActionResult Index()

@@ -2,10 +2,23 @@
     ViewBag.Title = "MyXml";
 }
 
+    @Mvc3Razor.MyHelpers.MyHelpersClass1.ListFiles("*.xml");
 
-@Mvc3Razor.MyHelpers.MyHelpersClass1.ListFiles("*.xml")
+
+<form name = "myform" method="post">
+
+<hr></hr>
+    XML Name: @Html.TextBox("xmlname")<br/>
+    Xsl Name: @Html.TextBox("xslname", Request["lastname"])<br/>
+
+    @*
+    Town: @Html.TextBox("town", Request["town"], new Dictionary<string, object>() { { "class", "special" } })<br />
+    Country: @Html.TextBox("country", Request["country"], new { size = 50 })<br /> 
+    *@
+    <input type="submit" / value="xml x xsl">
+<hr></hr>    
+
 @*
-
 @Mvc3Razor.MyHelpers.MyHelpersClass1.ListFiles("*.xml")
 
 @Mvc3Razor.MyHelpers.MyHelpersClass1.Transform00("detail.xml", "myTable.xsl")
@@ -18,7 +31,6 @@
 @RenderPage("~/Path/ToMy/File.html")?
 
 @Mvc3Razor.MyHelpers.MyHelpersClass1.Fuck(@ViewBag.fn)
-
 *@
 
 <h2>My Office</h2>
@@ -73,3 +85,4 @@ htmlhelp
 
         });
     </script>
+ </form>
