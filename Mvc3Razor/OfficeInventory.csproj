@@ -92,12 +92,45 @@
     <Content Include="App_Data\detail.xml" />
     <Content Include="App_Data\horsedetails.xsl" />
     <Content Include="App_Data\HTMLPage33.htm" />
+    <Content Include="App_Data\jake02.html" />
+    <Content Include="App_Data\jake02.js" />
     <Content Include="App_Data\myjson.htm" />
     <Content Include="App_Data\myTable.xsl" />
     <Content Include="App_Data\office2.htm" />
     <Content Include="App_Data\plainjane.htm" />
     <Content Include="Content\MyStyleSheet1.css" />
     <Content Include="Global.asax" />
+    <Content Include="js\jake02.js" />
+    <Content Include="js\jit-yc.js" />
+    <Content Include="js\jit.js" />
+    <Content Include="js\jit\Examples\css\AreaChart.css" />
+    <Content Include="js\jit\Examples\css\BarChart.css" />
+    <Content Include="js\jit\Examples\css\base.css" />
+    <Content Include="js\jit\Examples\css\col1.png" />
+    <Content Include="js\jit\Examples\css\col2.png" />
+    <Content Include="js\jit\Examples\css\ForceDirected.css" />
+    <Content Include="js\jit\Examples\css\ForceDirected3D.css" />
+    <Content Include="js\jit\Examples\css\gradient.png" />
+    <Content Include="js\jit\Examples\css\HeatMap.css" />
+    <Content Include="js\jit\Examples\css\Hypertree.css" />
+    <Content Include="js\jit\Examples\css\Icicle.css" />
+    <Content Include="js\jit\Examples\css\Other.css" />
+    <Content Include="js\jit\Examples\css\PieChart.css" />
+    <Content Include="js\jit\Examples\css\RGraph.css" />
+    <Content Include="js\jit\Examples\css\Spacetree.css" />
+    <Content Include="js\jit\Examples\css\Sunburst.css" />
+    <Content Include="js\jit\Examples\css\TimeGraph.css" />
+    <Content Include="js\jit\Examples\css\Treemap.css" />
+    <Content Include="js\jit\Examples\FM_ForceDirected\ex01.js" />
+    <Content Include="js\jit\Examples\FM_ForceDirected\example1.html" />
+    <Content Include="js\jit\Examples\FM_ForceDirected\example1.js" />
+    <Content Include="js\jit\Examples\FM_ForceDirected\example2.html" />
+    <Content Include="js\jit\Examples\FM_ForceDirected\example2.js" />
+    <Content Include="js\jit\Examples\FM_ForceDirected\jake02.html" />
+    <Content Include="js\jit\Examples\FM_ForceDirected\jake02.js" />
+    <Content Include="js\jit\Extras\excanvas.js" />
+    <Content Include="js\jit\jit-yc.js" />
+    <Content Include="js\jit\jit.js" />
     <Content Include="js\jquery-1.4.4.min.js" />
     <Content Include="js\jquery-ui-1.8.11.custom.min.js" />
     <Content Include="js\mydebug.js" />
@@ -189,6 +222,9 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Views\MyXml\index.cshtml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Views\MyXml\DI.cshtml" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" />

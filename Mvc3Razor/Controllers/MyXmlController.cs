@@ -375,6 +375,13 @@ namespace Mvc3Razor.Controllers
             return View();
         }
 
+        public ActionResult DI()
+        {
+            ViewBag.fuck = "<h1>The DI </h1>";
+            ViewBag.fn = "jake02.html";
+            return View();
+        }
+
         public ActionResult Office()
         {
             ViewBag.fuck = "<h1>The Office </h1>";
