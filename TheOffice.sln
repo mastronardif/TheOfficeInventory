@@ -1,6 +1,6 @@
 ﻿
-Microsoft Visual Studio Solution File, Format Version 11.00
-# Visual Studio 2010
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OfficeInventory", "Mvc3Razor\OfficeInventory.csproj", "{0278D5CD-9A99-4866-8FC4-F7C16C8A26E6}"
 EndProject
 Global
